@@ -1,0 +1,1822 @@
+ 
+Running extract...
+TOP LAYOUT: user_project_wrapper
+LAYOUT FILE: /home/asma/open_eFPGA_dirk/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: *sky130_fd_pr__*[A-Z]*
+ *_nmos_m*
+ *_pmos_m*
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+WORK_ROOT   : /home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/tmp
+LOG_ROOT    : /home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/logs
+SIGNOFF_ROOT: /home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/outputs/reports
+LOG FILE: /home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/logs/nowell.ext.log
+Tech files do not match:
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.tech/magic/sky130A.tech: version 1.0.470-0-g6d4d117
+/home/asma/open_eFPGA_dirk/mpw_precheck/checks/be_checks//tech/sky130A/sky130A.tech: version 1.0.470-0-g6d4d117
+Results may be incorrect. Contact efabless to update the soft connection rules.
+Extracting to /home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/tmp/nowell.ext
+ 
+CIFIN_STYLE: nowell
+EXTRACT_STYLE: nowell
+
+Magic 8.3 revision 471 - Compiled on Sat Sep 14 06:17:12 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design magicrc.well for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading "/home/asma/open_eFPGA_dirk/mpw_precheck/checks/be_checks//scripts/gds.digital.spice.tcl" from command line.
+Extracting with top ports unique (digital)
+Input style sky130(nowell): scaleFactor=2, multiplier=2
+CIF input style is now "sky130(nowell)"
+Flattening {*sky130_fd_pr__*[A-Z]*} *_nmos_m* *_pmos_m*
+Extracting /home/asma/open_eFPGA_dirk/gds/user_project_wrapper.gds
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "sky130_fd_sc_hd__buf_2".
+Reading "sky130_fd_sc_hd__decap_4".
+Reading "sky130_fd_sc_hd__decap_3".
+Reading "sky130_ef_sc_hd__decap_12".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "sky130_fd_sc_hd__buf_12".
+Reading "sky130_fd_sc_hd__clkbuf_1".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__buf_1".
+Reading "sky130_fd_sc_hd__decap_6".
+Reading "sky130_fd_sc_hd__decap_8".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "sky130_fd_sc_hd__or4_1".
+Reading "sky130_fd_sc_hd__diode_2".
+Reading "sky130_fd_sc_hd__dfxtp_2".
+Reading "sky130_fd_sc_hd__clkbuf_16".
+Reading "sky130_fd_sc_hd__and2_1".
+Reading "sky130_fd_sc_hd__nor3b_1".
+Reading "sky130_fd_sc_hd__or4_2".
+Reading "sky130_fd_sc_hd__clkinv_4".
+Reading "sky130_fd_sc_hd__dfxtp_1".
+Reading "sky130_fd_sc_hd__clkbuf_4".
+Reading "sky130_fd_sc_hd__inv_2".
+Reading "sky130_fd_sc_hd__mux4_1".
+Reading "sky130_fd_sc_hd__mux4_2".
+Reading "sky130_fd_sc_hd__buf_8".
+Reading "sky130_fd_sc_hd__dlymetal6s2s_1".
+Reading "sky130_fd_sc_hd__clkbuf_2".
+Reading "sky130_fd_sc_hd__dlxbp_1".
+Reading "sky130_fd_sc_hd__buf_4".
+Reading "sky130_fd_sc_hd__o21ai_1".
+Reading "sky130_fd_sc_hd__nand2_1".
+Reading "W_IO".
+Reading "sky130_fd_sc_hd__mux2_1".
+Reading "sky130_fd_sc_hd__mux2_8".
+Reading "sky130_fd_sc_hd__mux2_2".
+Reading "sky130_fd_sc_hd__a21o_1".
+Reading "sky130_fd_sc_hd__o21a_1".
+Reading "sky130_fd_sc_hd__mux2_4".
+Reading "sky130_fd_sc_hd__clkbuf_8".
+Reading "LUT4AB".
+    5000 uses
+Reading "sky130_fd_sc_hd__nor4_1".
+Reading "S_term_single".
+Reading "sky130_fd_sc_hd__or4b_1".
+Reading "sky130_fd_sc_hd__nor3_1".
+Reading "sky130_fd_sc_hd__o211a_1".
+Reading "sky130_fd_sc_hd__and4_1".
+Reading "sky130_fd_sc_hd__or3b_1".
+Reading "sky130_fd_sc_hd__a41o_1".
+Reading "sky130_fd_sc_hd__buf_6".
+Reading "sky130_fd_sc_hd__nand4_1".
+Reading "S_term_single2".
+Reading "sky130_fd_sc_hd__nand2_2".
+Reading "sky130_fd_sc_hd__nor2_4".
+Reading "sky130_fd_sc_hd__or2_2".
+Reading "sky130_fd_sc_hd__and2b_1".
+Reading "sky130_fd_sc_hd__o22a_1".
+Reading "sky130_fd_sc_hd__and2_2".
+Reading "sky130_fd_sc_hd__nor2_2".
+Reading "sky130_fd_sc_hd__and3_2".
+Reading "sky130_fd_sc_hd__and3b_4".
+Reading "sky130_fd_sc_hd__nand3b_4".
+Reading "sky130_fd_sc_hd__nand3_4".
+Reading "sky130_fd_sc_hd__or3_4".
+Reading "sky130_fd_sc_hd__or3b_4".
+Reading "sky130_fd_sc_hd__and3b_2".
+Reading "RegFile".
+    5000 uses
+Reading "sky130_fd_sc_hd__dfxtp_4".
+Reading "sky130_fd_sc_hd__dfrtp_1".
+Reading "sky130_fd_sc_hd__nor2_8".
+Reading "sky130_fd_sc_hd__dfrtp_4".
+Reading "S_term_DSP".
+Reading "sky130_fd_sc_hd__o21ai_4".
+Reading "sky130_fd_sc_hd__o21ai_2".
+Reading "sky130_fd_sc_hd__a311o_1".
+Reading "sky130_fd_sc_hd__a21oi_4".
+Reading "sky130_fd_sc_hd__nand3_2".
+Reading "sky130_fd_sc_hd__a211oi_4".
+Reading "sky130_fd_sc_hd__nand3_1".
+Reading "sky130_fd_sc_hd__o211ai_2".
+Reading "sky130_fd_sc_hd__o211a_2".
+Reading "sky130_fd_sc_hd__a31oi_2".
+Reading "sky130_fd_sc_hd__nand4_4".
+Reading "sky130_fd_sc_hd__a211o_1".
+Reading "sky130_fd_sc_hd__a21oi_2".
+Reading "sky130_fd_sc_hd__and4b_1".
+Reading "sky130_fd_sc_hd__o311ai_4".
+Reading "sky130_fd_sc_hd__a2bb2o_1".
+Reading "sky130_fd_sc_hd__a221o_1".
+Reading "sky130_fd_sc_hd__nand2_4".
+Reading "sky130_fd_sc_hd__xor2_1".
+Reading "sky130_fd_sc_hd__a21bo_1".
+Reading "sky130_fd_sc_hd__and3b_1".
+Reading "sky130_fd_sc_hd__a31o_1".
+Reading "sky130_fd_sc_hd__a21oi_1".
+Reading "sky130_fd_sc_hd__or3_1".
+Reading "sky130_fd_sc_hd__a32o_1".
+Reading "sky130_fd_sc_hd__and3_1".
+Reading "sky130_fd_sc_hd__or3_2".
+Reading "sky130_fd_sc_hd__nor2_1".
+Reading "sky130_fd_sc_hd__o31a_1".
+Reading "sky130_fd_sc_hd__xnor2_1".
+Reading "sky130_fd_sc_hd__a22o_1".
+Reading "sky130_fd_sc_hd__or2b_1".
+Reading "sky130_fd_sc_hd__or2_1".
+Reading "sky130_fd_sc_hd__o221a_2".
+Reading "sky130_fd_sc_hd__o221a_1".
+Reading "sky130_fd_sc_hd__or2b_2".
+Reading "sky130_fd_sc_hd__o21bai_1".
+Reading "sky130_fd_sc_hd__o22ai_2".
+Reading "sky130_fd_sc_hd__nand3b_1".
+Reading "sky130_fd_sc_hd__a21boi_2".
+Reading "sky130_fd_sc_hd__o2bb2ai_2".
+Reading "sky130_fd_sc_hd__a22oi_2".
+Reading "sky130_fd_sc_hd__o2111a_2".
+Reading "sky130_fd_sc_hd__nand3b_2".
+Reading "sky130_fd_sc_hd__o211ai_4".
+Reading "sky130_fd_sc_hd__o211ai_1".
+Reading "sky130_fd_sc_hd__a21boi_4".
+Reading "sky130_fd_sc_hd__o2bb2ai_4".
+Reading "sky130_fd_sc_hd__o221ai_4".
+Reading "sky130_fd_sc_hd__o21a_4".
+Reading "sky130_fd_sc_hd__nor3_2".
+Reading "sky130_fd_sc_hd__a31oi_4".
+Reading "sky130_fd_sc_hd__o22ai_4".
+Reading "sky130_fd_sc_hd__o2bb2a_2".
+Reading "sky130_fd_sc_hd__a22oi_4".
+Reading "sky130_fd_sc_hd__o2111ai_4".
+Reading "sky130_fd_sc_hd__a41oi_4".
+Reading "sky130_fd_sc_hd__a221o_2".
+Reading "sky130_fd_sc_hd__o22a_4".
+Reading "sky130_fd_sc_hd__a32oi_4".
+Reading "sky130_fd_sc_hd__a221oi_4".
+Reading "sky130_fd_sc_hd__o2111ai_2".
+Reading "sky130_fd_sc_hd__a21o_2".
+Reading "sky130_fd_sc_hd__o311a_1".
+Reading "sky130_fd_sc_hd__o21bai_4".
+Reading "sky130_fd_sc_hd__o41ai_2".
+Reading "sky130_fd_sc_hd__o2bb2ai_1".
+Reading "sky130_fd_sc_hd__a32oi_1".
+Reading "sky130_fd_sc_hd__o211a_4".
+Reading "sky130_fd_sc_hd__nand4_2".
+Reading "sky130_fd_sc_hd__a32o_2".
+Reading "sky130_fd_sc_hd__nor2b_2".
+Reading "sky130_fd_sc_hd__xnor2_2".
+Reading "sky130_fd_sc_hd__o21a_2".
+Reading "sky130_fd_sc_hd__o31ai_4".
+Reading "sky130_fd_sc_hd__o2111a_1".
+Reading "sky130_fd_sc_hd__o32ai_4".
+Reading "sky130_fd_sc_hd__a2bb2oi_1".
+Reading "sky130_fd_sc_hd__nor2b_4".
+Reading "sky130_fd_sc_hd__o22a_2".
+Reading "sky130_fd_sc_hd__o21bai_2".
+Reading "sky130_fd_sc_hd__o2111ai_1".
+Reading "sky130_fd_sc_hd__a31o_4".
+Reading "sky130_fd_sc_hd__a31o_2".
+Reading "sky130_fd_sc_hd__or4_4".
+Reading "sky130_fd_sc_hd__a22o_2".
+Reading "sky130_fd_sc_hd__o2bb2a_1".
+Reading "sky130_fd_sc_hd__a22oi_1".
+Reading "sky130_fd_sc_hd__o32a_1".
+Reading "sky130_fd_sc_hd__a21bo_4".
+Reading "sky130_fd_sc_hd__o41a_1".
+Reading "sky130_fd_sc_hd__and4_2".
+Reading "sky130_fd_sc_hd__xor2_2".
+Reading "sky130_fd_sc_hd__nand2_8".
+Reading "sky130_fd_sc_hd__a2111o_1".
+Reading "sky130_fd_sc_hd__a21boi_1".
+Reading "sky130_fd_sc_hd__a2bb2oi_4".
+Reading "sky130_fd_sc_hd__a221oi_1".
+Reading "DSP".
+    5000 uses
+    10000 uses
+Reading "sky130_fd_sc_hd__or2_4".
+Reading "sky130_fd_sc_hd__nand2b_4".
+Reading "sky130_fd_sc_hd__and4_4".
+Reading "sky130_fd_sc_hd__and2b_2".
+Reading "S_term_RAM_IO".
+Reading "RAM_IO".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_19
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_13".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_13
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_14
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_40".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_40
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_34
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_7
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_39".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_33".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_33
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_row_addr_dff".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_row_addr_dff" (byte position 39578088): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_row_addr_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_row_addr_dff" (byte position 39578088): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_row_addr_dff boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_col_addr_dff".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_col_addr_dff" (byte position 39579992): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_col_addr_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_col_addr_dff" (byte position 39579992): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_col_addr_dff boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff" (byte position 39586472): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff" (byte position 39586472): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff" (byte position 39586472): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff" (byte position 39586472): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff" (byte position 39586472): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff" (byte position 39586472): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff" (byte position 39586472): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff" (byte position 39586472): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_cr_3".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_16".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_16
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_29".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_29
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_28".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_28
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_11
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_360_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_360_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_12".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_12
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w1_120_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w1_120_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0" (byte position 39593386): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0" (byte position 39593386): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0" (byte position 39593386): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sactive_dli".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sactive_dli
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sli_dactive".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sli_dactive
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w1_120_sli_dli".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w1_120_sli_dli
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1" (byte position 39598804): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1" (byte position 39598804): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1" (byte position 39598804): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m3_w1_680_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m3_w1_680_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m3_w1_680_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m3_w1_680_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2" (byte position 39603592): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2" (byte position 39603592): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2" (byte position 39603592): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m2_w0_740_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m2_w0_740_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m2_w1_260_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m2_w1_260_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1" (byte position 39607860): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1" (byte position 39607860): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1" (byte position 39607860): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array" (byte position 39614130): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array" (byte position 39614130): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array" (byte position 39614130): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array" (byte position 39614130): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array" (byte position 39614130): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array" (byte position 39614130): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m7_w1_680_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m7_w1_680_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m7_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m7_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3" (byte position 39620894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3" (byte position 39620894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3" (byte position 39620894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0" (byte position 39624298): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0" (byte position 39624298): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0" (byte position 39624298): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m12_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m12_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m12_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m12_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18" (byte position 39634810): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18" (byte position 39634810): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18" (byte position 39634810): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m4_w1_260_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m4_w1_260_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m4_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m4_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17" (byte position 39640196): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17" (byte position 39640196): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17" (byte position 39640196): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11" (byte position 39642214): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11" (byte position 39642214): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11" (byte position 39642214): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6" (byte position 39644102): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6" (byte position 39644102): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6" (byte position 39644102): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_5".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19" (byte position 39647642): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19" (byte position 39647642): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19" (byte position 39647642): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain" (byte position 39686796): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain" (byte position 39686796): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain" (byte position 39686796): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain" (byte position 39686796): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain" (byte position 39686796): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain" (byte position 39686796): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain" (byte position 39686796): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m18_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m18_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m18_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m18_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16" (byte position 39699098): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16" (byte position 39699098): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16" (byte position 39699098): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_4".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sactive_dactive".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sactive_dactive
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pnand3".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand3" (byte position 39703694): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand3 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand3" (byte position 39703694): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand3 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand3" (byte position 39703694): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand3 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pand3_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m22_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m22_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m22_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m22_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15" (byte position 39719246): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15" (byte position 39719246): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15" (byte position 39719246): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_3".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pand3".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m24_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m24_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m24_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m24_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14" (byte position 39736662): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14" (byte position 39736662): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14" (byte position 39736662): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m8_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m8_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m8_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m8_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13" (byte position 39744024): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13" (byte position 39744024): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13" (byte position 39744024): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m3_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m3_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m3_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m3_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12" (byte position 39748814): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12" (byte position 39748814): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12" (byte position 39748814): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_2".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m40_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m40_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m40_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m40_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10" (byte position 39773764): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10" (byte position 39773764): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10" (byte position 39773764): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m13_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m13_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m13_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m13_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9" (byte position 39783492): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9" (byte position 39783492): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9" (byte position 39783492): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m5_w1_680_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m5_w1_680_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m5_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m5_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8" (byte position 39789268): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8" (byte position 39789268): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8" (byte position 39789268): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m2_w1_260_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m2_w1_260_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m2_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m2_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7" (byte position 39793536): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7" (byte position 39793536): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7" (byte position 39793536): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_1".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_rw".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_rw" (byte position 39819880): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_rw boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_cr_5".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0" (byte position 39822766): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0" (byte position 39822766): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0" (byte position 39822766): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0" (byte position 39822766): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m39_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m39_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m39_w2_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m39_w2_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20" (byte position 39845340): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20" (byte position 39845340): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20" (byte position 39845340): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_6".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_r".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_r" (byte position 39867010): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_r boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_cr_4".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_data_dff" (byte position 39946894): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_data_dff boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinvbuf".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_15".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_15
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w7_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w7_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w7_000_sli_dli_da_p".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w7_000_sli_dli_da_p
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0".
+CIF file read warning: CIF style sky130(nowell): units rescaled by factor of 5 / 1
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0" (byte position 39953012): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0" (byte position 39953012): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0" (byte position 39953012): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0" (byte position 39953012): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0 boundary was redefined.
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_20".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_20
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_17".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_17
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec" (byte position 40026246): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec" (byte position 40026246): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec" (byte position 40026246): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec" (byte position 40026246): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec boundary was redefined.
+Reading "sky130_fd_bd_sram__openram_dp_nand3_dec".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode3x8".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode2x4".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_decoder".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_decoder" (byte position 40418446): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_decoder boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0" (byte position 40608270): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0" (byte position 40608270): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0" (byte position 40608270): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0" (byte position 40608270): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0" (byte position 40608270): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0" (byte position 40608270): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_port_address".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address" (byte position 40798098): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address" (byte position 40798098): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address" (byte position 40798098): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address" (byte position 40798098): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address" (byte position 40798098): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_port_address" (byte position 40798098): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_port_address boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_27".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_27
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_26".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_26
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_0".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_0" (byte position 40802826): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_0" (byte position 40802826): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_0 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_25".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_25
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_24".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_24
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0" (byte position 40913166): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0" (byte position 40913166): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0" (byte position 40913166): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0" (byte position 40913166): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0" (byte position 40913166): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0" (byte position 40913166): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0" (byte position 40913166): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0" (byte position 40913166): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0 boundary was redefined.
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_sense_amp_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_23".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_23
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_21".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_21
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_22".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_22
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w0_550_sli_dli".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w0_550_sli_dli
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_1".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_1" (byte position 41002788): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_1 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0" (byte position 41045700): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_port_data_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux" (byte position 41176690): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux" (byte position 41176690): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array" (byte position 41286036): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array" (byte position 41286036): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array" (byte position 41286036): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array" (byte position 41286036): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array" (byte position 41286036): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array" (byte position 41286036): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array" (byte position 41286036): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array" (byte position 41286036): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pinv".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv" (byte position 41288050): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv" (byte position 41288050): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pinv" (byte position 41288050): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pinv boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pdriver".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2" (byte position 41291448): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand2 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2" (byte position 41291448): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand2 boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_pnand2" (byte position 41291448): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_pnand2 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_pand2".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array" (byte position 41299728): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array boundary was redefined.
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_write_driver_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_0".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_0" (byte position 41393968): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_0 boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array" (byte position 41436896): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_port_data".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_9".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_9
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_contact_8".
+Saving contents of cell sky130_sram_1kbyte_1rw1r_32x256_8_contact_8
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 41625552): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 41626256): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 41627216): Unknown layer/datatype in boundary, layer=22 type=21
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array_0".
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 41979192): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 41982968): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 41987160): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 41988024): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 41988280): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_dummy_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 42087674): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 42091450): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 42095642): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 42097018): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 42097274): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_replica_column_0".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_replica_column".
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 42336872): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 42340648): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 42344840): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 42346216): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 42346472): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_bitcell_array".
+    5000 uses
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array".
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array" (byte position 46737852): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array" (byte position 46737852): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array" (byte position 46737852): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array boundary was redefined.
+Error while reading cell "sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array" (byte position 46737852): Warning:  Cell sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array boundary was redefined.
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8_bank".
+Reading "sky130_sram_1kbyte_1rw1r_32x256_8".
+    5000 uses
+Reading "sky130_fd_sc_hd__dlxtn_1".
+Reading "BlockRAM_1KB".
+Reading "sky130_fd_sc_hd__and2b_4".
+Reading "sky130_fd_sc_hd__dfstp_1".
+Reading "sky130_fd_sc_hd__o31ai_1".
+Reading "sky130_fd_sc_hd__a311o_2".
+Reading "sky130_fd_sc_hd__a31oi_1".
+Reading "sky130_fd_sc_hd__dfrtp_2".
+Reading "sky130_fd_sc_hd__nor4b_2".
+Reading "sky130_fd_sc_hd__or4bb_2".
+Reading "sky130_fd_sc_hd__or4b_2".
+Reading "sky130_fd_sc_hd__or3b_2".
+Reading "sky130_fd_sc_hd__and4bb_1".
+Reading "sky130_fd_sc_hd__dfstp_4".
+Reading "sky130_fd_sc_hd__dfstp_2".
+Reading "sky130_fd_sc_hd__nand2b_1".
+Reading "sky130_fd_sc_hd__nand2b_2".
+Reading "sky130_fd_sc_hd__or4bb_1".
+Reading "sky130_fd_sc_hd__or4bb_4".
+Reading "eFPGA_Config".
+Reading "sky130_fd_sc_hd__or2b_4".
+Reading "N_term_single".
+Reading "N_term_single2".
+Reading "N_term_DSP".
+Reading "N_term_RAM_IO".
+Reading "user_project_wrapper".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Extraction style is now "ngspice(nowell)"
+Processing sky130_fd_sc_hd__clkbuf_4
+Processing sky130_fd_sc_hd__decap_3
+Processing sky130_fd_sc_hd__buf_2
+Processing sky130_fd_sc_hd__decap_4
+Processing sky130_fd_sc_hd__decap_6
+Processing sky130_fd_sc_hd__buf_1
+Processing sky130_fd_sc_hd__clkbuf_1
+Processing sky130_fd_sc_hd__diode_2
+Processing sky130_ef_sc_hd__decap_12
+Processing sky130_fd_sc_hd__clkbuf_16
+Processing sky130_fd_sc_hd__decap_8
+Processing sky130_fd_sc_hd__clkbuf_2
+Processing sky130_fd_sc_hd__dlxbp_1
+Processing sky130_fd_sc_hd__mux4_1
+Processing sky130_fd_sc_hd__dlymetal6s2s_1
+Processing sky130_fd_sc_hd__mux4_2
+Processing sky130_fd_sc_hd__nand2_1
+Processing sky130_fd_sc_hd__o21ai_1
+Processing sky130_fd_sc_hd__inv_2
+Processing sky130_fd_sc_hd__dfxtp_1
+Processing sky130_fd_sc_hd__conb_1
+Processing sky130_fd_sc_hd__buf_4
+Processing sky130_fd_sc_hd__buf_8
+Processing W_IO
+Processing sky130_fd_sc_hd__mux2_1
+Processing sky130_fd_sc_hd__dlygate4sd3_1
+Processing sky130_fd_sc_hd__mux2_8
+Processing sky130_fd_sc_hd__mux2_2
+Processing sky130_fd_sc_hd__a21o_1
+Processing sky130_fd_sc_hd__o21a_1
+Processing sky130_fd_sc_hd__mux2_4
+Processing sky130_fd_sc_hd__clkbuf_8
+Processing sky130_fd_sc_hd__buf_12
+Processing LUT4AB
+Processing sky130_fd_sc_hd__buf_6
+Processing sky130_fd_sc_hd__and2_1
+Processing sky130_fd_sc_hd__nand2_2
+Processing sky130_fd_sc_hd__and2b_1
+Processing sky130_fd_sc_hd__o22a_1
+Processing sky130_fd_sc_hd__nor2_2
+Processing sky130_fd_sc_hd__and3_2
+Processing sky130_fd_sc_hd__nor2_4
+Processing sky130_fd_sc_hd__and3b_4
+Processing sky130_fd_sc_hd__nand3b_4
+Processing sky130_fd_sc_hd__or2_2
+Processing sky130_fd_sc_hd__nand3_4
+Processing sky130_fd_sc_hd__or3b_1
+Processing sky130_fd_sc_hd__or3_4
+Processing sky130_fd_sc_hd__or3b_4
+Processing sky130_fd_sc_hd__and3b_2
+Processing sky130_fd_sc_hd__and2_2
+Processing RegFile
+Processing sky130_fd_sc_hd__o21ai_4
+Processing sky130_fd_sc_hd__o21ai_2
+Processing sky130_fd_sc_hd__a31o_1
+Processing sky130_fd_sc_hd__nand4_4
+Processing sky130_fd_sc_hd__o22ai_2
+Processing sky130_fd_sc_hd__a21oi_1
+Processing sky130_fd_sc_hd__nand3b_1
+Processing sky130_fd_sc_hd__a21boi_2
+Processing sky130_fd_sc_hd__a21oi_2
+Processing sky130_fd_sc_hd__a31oi_2
+Processing sky130_fd_sc_hd__o2bb2ai_2
+Processing sky130_fd_sc_hd__a22oi_2
+Processing sky130_fd_sc_hd__nand3_2
+Processing sky130_fd_sc_hd__o2111a_2
+Processing sky130_fd_sc_hd__nor3b_1
+Processing sky130_fd_sc_hd__nand3b_2
+Processing sky130_fd_sc_hd__a21bo_1
+Processing sky130_fd_sc_hd__o211ai_4
+Processing sky130_fd_sc_hd__o211a_1
+Processing sky130_fd_sc_hd__a22o_1
+Processing sky130_fd_sc_hd__nor2_1
+Processing sky130_fd_sc_hd__o211ai_1
+Processing sky130_fd_sc_hd__a21boi_4
+Processing sky130_fd_sc_hd__o2bb2ai_4
+Processing sky130_fd_sc_hd__or2b_2
+Processing sky130_fd_sc_hd__a32o_1
+Processing sky130_fd_sc_hd__a311o_1
+Processing sky130_fd_sc_hd__o221ai_4
+Processing sky130_fd_sc_hd__o211ai_2
+Processing sky130_fd_sc_hd__o21a_4
+Processing sky130_fd_sc_hd__or2_1
+Processing sky130_fd_sc_hd__xor2_1
+Processing sky130_fd_sc_hd__nor3_2
+Processing sky130_fd_sc_hd__a211oi_4
+Processing sky130_fd_sc_hd__nor3_1
+Processing sky130_fd_sc_hd__and3_1
+Processing sky130_fd_sc_hd__nand3_1
+Processing sky130_fd_sc_hd__a31oi_4
+Processing sky130_fd_sc_hd__o22ai_4
+Processing sky130_fd_sc_hd__o211a_2
+Processing sky130_fd_sc_hd__or4_1
+Processing sky130_fd_sc_hd__nand4_1
+Processing sky130_fd_sc_hd__or2b_1
+Processing sky130_fd_sc_hd__o221a_2
+Processing sky130_fd_sc_hd__o2bb2a_2
+Processing sky130_fd_sc_hd__a22oi_4
+Processing sky130_fd_sc_hd__o2111ai_4
+Processing sky130_fd_sc_hd__nor4_1
+Processing sky130_fd_sc_hd__a41oi_4
+Processing sky130_fd_sc_hd__a221o_2
+Processing sky130_fd_sc_hd__o22a_4
+Processing sky130_fd_sc_hd__nand2_4
+Processing sky130_fd_sc_hd__a211o_1
+Processing sky130_fd_sc_hd__o31a_1
+Processing sky130_fd_sc_hd__a32oi_4
+Processing sky130_fd_sc_hd__a21oi_4
+Processing sky130_fd_sc_hd__a221oi_4
+Processing sky130_fd_sc_hd__and4_1
+Processing sky130_fd_sc_hd__o2111ai_2
+Processing sky130_fd_sc_hd__a21o_2
+Processing sky130_fd_sc_hd__o311a_1
+Processing sky130_fd_sc_hd__o21bai_4
+Processing sky130_fd_sc_hd__o41ai_2
+Processing sky130_fd_sc_hd__o2bb2ai_1
+Processing sky130_fd_sc_hd__a32oi_1
+Processing sky130_fd_sc_hd__xnor2_1
+Processing sky130_fd_sc_hd__o211a_4
+Processing sky130_fd_sc_hd__nand4_2
+Processing sky130_fd_sc_hd__a32o_2
+Processing sky130_fd_sc_hd__nor2b_2
+Processing sky130_fd_sc_hd__o311ai_4
+Processing sky130_fd_sc_hd__xnor2_2
+Processing sky130_fd_sc_hd__o21a_2
+Processing sky130_fd_sc_hd__o31ai_4
+Processing sky130_fd_sc_hd__a221o_1
+Processing sky130_fd_sc_hd__and3b_1
+Processing sky130_fd_sc_hd__o2111a_1
+Processing sky130_fd_sc_hd__o32ai_4
+Processing sky130_fd_sc_hd__a2bb2oi_1
+Processing sky130_fd_sc_hd__a2bb2o_1
+Processing sky130_fd_sc_hd__nor2b_4
+Processing sky130_fd_sc_hd__o21bai_1
+Processing sky130_fd_sc_hd__a41o_1
+Processing sky130_fd_sc_hd__o22a_2
+Processing sky130_fd_sc_hd__o21bai_2
+Processing sky130_fd_sc_hd__o2111ai_1
+Processing sky130_fd_sc_hd__a31o_4
+Processing sky130_fd_sc_hd__a31o_2
+Processing sky130_fd_sc_hd__and4b_1
+Processing sky130_fd_sc_hd__or4_4
+Processing sky130_fd_sc_hd__or3_1
+Processing sky130_fd_sc_hd__a22o_2
+Processing sky130_fd_sc_hd__o2bb2a_1
+Processing sky130_fd_sc_hd__a22oi_1
+Processing sky130_fd_sc_hd__or3_2
+Processing sky130_fd_sc_hd__o32a_1
+Processing sky130_fd_sc_hd__o221a_1
+Processing sky130_fd_sc_hd__a21bo_4
+Processing sky130_fd_sc_hd__o41a_1
+Processing sky130_fd_sc_hd__and4_2
+Processing sky130_fd_sc_hd__xor2_2
+Processing sky130_fd_sc_hd__nand2_8
+Processing sky130_fd_sc_hd__a2111o_1
+Processing sky130_fd_sc_hd__a21boi_1
+Processing sky130_fd_sc_hd__a2bb2oi_4
+Processing sky130_fd_sc_hd__a221oi_1
+Processing DSP
+Processing RAM_IO
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_contact_39
+Processing sky130_fd_bd_sram__openram_dff
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_row_addr_dff
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_col_addr_dff
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_cr_3
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_5
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_4
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pnand3
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pand3_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_3
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pand3
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_2
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_1
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_rw
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_cr_5
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_6
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_r
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_cr_4
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_data_dff
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinvbuf
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0
+Processing sky130_fd_bd_sram__openram_dp_nand2_dec
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver_array
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec
+Processing sky130_fd_bd_sram__openram_dp_nand3_dec
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode3x8
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode2x4
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_decoder
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_port_address
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0
+Processing sky130_fd_bd_sram__openram_sense_amp
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_sense_amp_array
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_precharge_1
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_port_data_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_column_mux
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pinv
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pdriver
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pnand2
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_pand2
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array
+Processing sky130_fd_bd_sram__openram_write_driver
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_write_driver_array
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_precharge_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_port_data
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_row
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_col
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array_0
+Processing sky130_fd_bd_sram__openram_dp_cell_dummy
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_dummy_array
+Processing sky130_fd_bd_sram__openram_dp_cell_replica
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_replica_column_0
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_replica_column
+Processing sky130_fd_bd_sram__openram_dp_cell
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_bitcell_array
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array
+Processing sky130_sram_1kbyte_1rw1r_32x256_8_bank
+Processing sky130_sram_1kbyte_1rw1r_32x256_8
+Processing sky130_fd_sc_hd__dlxtn_1
+Processing BlockRAM_1KB
+Processing sky130_fd_sc_hd__dfrtp_1
+Processing sky130_fd_sc_hd__dfstp_1
+Processing sky130_fd_sc_hd__o31ai_1
+Processing sky130_fd_sc_hd__a311o_2
+Processing sky130_fd_sc_hd__or4b_1
+Processing sky130_fd_sc_hd__a31oi_1
+Processing sky130_fd_sc_hd__or4_2
+Processing sky130_fd_sc_hd__dfrtp_2
+Processing sky130_fd_sc_hd__dfrtp_4
+Processing sky130_fd_sc_hd__nor4b_2
+Processing sky130_fd_sc_hd__or4bb_2
+Processing sky130_fd_sc_hd__or4b_2
+Processing sky130_fd_sc_hd__or3b_2
+Processing sky130_fd_sc_hd__nand2b_4
+Processing sky130_fd_sc_hd__and4bb_1
+Processing sky130_fd_sc_hd__dfstp_4
+Processing sky130_fd_sc_hd__dfstp_2
+Processing sky130_fd_sc_hd__nand2b_1
+Processing sky130_fd_sc_hd__nand2b_2
+Processing sky130_fd_sc_hd__or4bb_1
+Processing sky130_fd_sc_hd__or4bb_4
+Processing eFPGA_Config
+Processing N_term_RAM_IO
+Processing N_term_single
+Processing N_term_DSP
+Processing N_term_single2
+Processing sky130_fd_sc_hd__dfxtp_2
+Processing sky130_fd_sc_hd__nor2_8
+Processing sky130_fd_sc_hd__or2_4
+Processing sky130_fd_sc_hd__or2b_4
+Processing sky130_fd_sc_hd__and2b_4
+Processing S_term_RAM_IO
+Processing S_term_single
+Processing sky130_fd_sc_hd__and2b_2
+Processing sky130_fd_sc_hd__and4_4
+Processing S_term_DSP
+Processing sky130_fd_sc_hd__dfxtp_4
+Processing S_term_single2
+Processing sky130_fd_sc_hd__clkdlybuf4s25_1
+Processing sky130_fd_sc_hd__clkinv_4
+Processing user_project_wrapper
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_4 into sky130_fd_sc_hd__clkbuf_4.ext:
+Extracting sky130_fd_sc_hd__decap_3 into sky130_fd_sc_hd__decap_3.ext:
+sky130_fd_sc_hd__decap_3: 2 warnings
+Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+sky130_fd_sc_hd__decap_4: 2 warnings
+Extracting sky130_fd_sc_hd__decap_6 into sky130_fd_sc_hd__decap_6.ext:
+sky130_fd_sc_hd__decap_6: 2 warnings
+Extracting sky130_fd_sc_hd__buf_1 into sky130_fd_sc_hd__buf_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_1 into sky130_fd_sc_hd__clkbuf_1.ext:
+Extracting sky130_fd_sc_hd__diode_2 into sky130_fd_sc_hd__diode_2.ext:
+Extracting sky130_ef_sc_hd__decap_12 into sky130_ef_sc_hd__decap_12.ext:
+sky130_ef_sc_hd__decap_12: 2 warnings
+Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
+Extracting sky130_fd_sc_hd__decap_8 into sky130_fd_sc_hd__decap_8.ext:
+sky130_fd_sc_hd__decap_8: 2 warnings
+Extracting sky130_fd_sc_hd__clkbuf_2 into sky130_fd_sc_hd__clkbuf_2.ext:
+Extracting sky130_fd_sc_hd__dlxbp_1 into sky130_fd_sc_hd__dlxbp_1.ext:
+Extracting sky130_fd_sc_hd__mux4_1 into sky130_fd_sc_hd__mux4_1.ext:
+Extracting sky130_fd_sc_hd__dlymetal6s2s_1 into sky130_fd_sc_hd__dlymetal6s2s_1.ext:
+Extracting sky130_fd_sc_hd__mux4_2 into sky130_fd_sc_hd__mux4_2.ext:
+Extracting sky130_fd_sc_hd__nand2_1 into sky130_fd_sc_hd__nand2_1.ext:
+Extracting sky130_fd_sc_hd__o21ai_1 into sky130_fd_sc_hd__o21ai_1.ext:
+Extracting sky130_fd_sc_hd__inv_2 into sky130_fd_sc_hd__inv_2.ext:
+Extracting sky130_fd_sc_hd__dfxtp_1 into sky130_fd_sc_hd__dfxtp_1.ext:
+Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
+Extracting sky130_fd_sc_hd__buf_4 into sky130_fd_sc_hd__buf_4.ext:
+Extracting sky130_fd_sc_hd__buf_8 into sky130_fd_sc_hd__buf_8.ext:
+Extracting W_IO into W_IO.ext:
+Extracting sky130_fd_sc_hd__mux2_1 into sky130_fd_sc_hd__mux2_1.ext:
+Extracting sky130_fd_sc_hd__dlygate4sd3_1 into sky130_fd_sc_hd__dlygate4sd3_1.ext:
+Extracting sky130_fd_sc_hd__mux2_8 into sky130_fd_sc_hd__mux2_8.ext:
+Extracting sky130_fd_sc_hd__mux2_2 into sky130_fd_sc_hd__mux2_2.ext:
+Extracting sky130_fd_sc_hd__a21o_1 into sky130_fd_sc_hd__a21o_1.ext:
+Extracting sky130_fd_sc_hd__o21a_1 into sky130_fd_sc_hd__o21a_1.ext:
+Extracting sky130_fd_sc_hd__mux2_4 into sky130_fd_sc_hd__mux2_4.ext:
+Extracting sky130_fd_sc_hd__clkbuf_8 into sky130_fd_sc_hd__clkbuf_8.ext:
+Extracting sky130_fd_sc_hd__buf_12 into sky130_fd_sc_hd__buf_12.ext:
+Extracting LUT4AB into LUT4AB.ext:
+Extracting sky130_fd_sc_hd__buf_6 into sky130_fd_sc_hd__buf_6.ext:
+Extracting sky130_fd_sc_hd__and2_1 into sky130_fd_sc_hd__and2_1.ext:
+Extracting sky130_fd_sc_hd__nand2_2 into sky130_fd_sc_hd__nand2_2.ext:
+Extracting sky130_fd_sc_hd__and2b_1 into sky130_fd_sc_hd__and2b_1.ext:
+Extracting sky130_fd_sc_hd__o22a_1 into sky130_fd_sc_hd__o22a_1.ext:
+Extracting sky130_fd_sc_hd__nor2_2 into sky130_fd_sc_hd__nor2_2.ext:
+Extracting sky130_fd_sc_hd__and3_2 into sky130_fd_sc_hd__and3_2.ext:
+Extracting sky130_fd_sc_hd__nor2_4 into sky130_fd_sc_hd__nor2_4.ext:
+Extracting sky130_fd_sc_hd__and3b_4 into sky130_fd_sc_hd__and3b_4.ext:
+Extracting sky130_fd_sc_hd__nand3b_4 into sky130_fd_sc_hd__nand3b_4.ext:
+Extracting sky130_fd_sc_hd__or2_2 into sky130_fd_sc_hd__or2_2.ext:
+Extracting sky130_fd_sc_hd__nand3_4 into sky130_fd_sc_hd__nand3_4.ext:
+Extracting sky130_fd_sc_hd__or3b_1 into sky130_fd_sc_hd__or3b_1.ext:
+Extracting sky130_fd_sc_hd__or3_4 into sky130_fd_sc_hd__or3_4.ext:
+Extracting sky130_fd_sc_hd__or3b_4 into sky130_fd_sc_hd__or3b_4.ext:
+Extracting sky130_fd_sc_hd__and3b_2 into sky130_fd_sc_hd__and3b_2.ext:
+Extracting sky130_fd_sc_hd__and2_2 into sky130_fd_sc_hd__and2_2.ext:
+Extracting RegFile into RegFile.ext:
+Extracting sky130_fd_sc_hd__o21ai_4 into sky130_fd_sc_hd__o21ai_4.ext:
+Extracting sky130_fd_sc_hd__o21ai_2 into sky130_fd_sc_hd__o21ai_2.ext:
+Extracting sky130_fd_sc_hd__a31o_1 into sky130_fd_sc_hd__a31o_1.ext:
+Extracting sky130_fd_sc_hd__nand4_4 into sky130_fd_sc_hd__nand4_4.ext:
+Extracting sky130_fd_sc_hd__o22ai_2 into sky130_fd_sc_hd__o22ai_2.ext:
+Extracting sky130_fd_sc_hd__a21oi_1 into sky130_fd_sc_hd__a21oi_1.ext:
+Extracting sky130_fd_sc_hd__nand3b_1 into sky130_fd_sc_hd__nand3b_1.ext:
+Extracting sky130_fd_sc_hd__a21boi_2 into sky130_fd_sc_hd__a21boi_2.ext:
+Extracting sky130_fd_sc_hd__a21oi_2 into sky130_fd_sc_hd__a21oi_2.ext:
+Extracting sky130_fd_sc_hd__a31oi_2 into sky130_fd_sc_hd__a31oi_2.ext:
+Extracting sky130_fd_sc_hd__o2bb2ai_2 into sky130_fd_sc_hd__o2bb2ai_2.ext:
+Extracting sky130_fd_sc_hd__a22oi_2 into sky130_fd_sc_hd__a22oi_2.ext:
+Extracting sky130_fd_sc_hd__nand3_2 into sky130_fd_sc_hd__nand3_2.ext:
+Extracting sky130_fd_sc_hd__o2111a_2 into sky130_fd_sc_hd__o2111a_2.ext:
+Extracting sky130_fd_sc_hd__nor3b_1 into sky130_fd_sc_hd__nor3b_1.ext:
+Extracting sky130_fd_sc_hd__nand3b_2 into sky130_fd_sc_hd__nand3b_2.ext:
+Extracting sky130_fd_sc_hd__a21bo_1 into sky130_fd_sc_hd__a21bo_1.ext:
+Extracting sky130_fd_sc_hd__o211ai_4 into sky130_fd_sc_hd__o211ai_4.ext:
+Extracting sky130_fd_sc_hd__o211a_1 into sky130_fd_sc_hd__o211a_1.ext:
+Extracting sky130_fd_sc_hd__a22o_1 into sky130_fd_sc_hd__a22o_1.ext:
+Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__o211ai_1 into sky130_fd_sc_hd__o211ai_1.ext:
+Extracting sky130_fd_sc_hd__a21boi_4 into sky130_fd_sc_hd__a21boi_4.ext:
+Extracting sky130_fd_sc_hd__o2bb2ai_4 into sky130_fd_sc_hd__o2bb2ai_4.ext:
+Extracting sky130_fd_sc_hd__or2b_2 into sky130_fd_sc_hd__or2b_2.ext:
+Extracting sky130_fd_sc_hd__a32o_1 into sky130_fd_sc_hd__a32o_1.ext:
+Extracting sky130_fd_sc_hd__a311o_1 into sky130_fd_sc_hd__a311o_1.ext:
+Extracting sky130_fd_sc_hd__o221ai_4 into sky130_fd_sc_hd__o221ai_4.ext:
+Extracting sky130_fd_sc_hd__o211ai_2 into sky130_fd_sc_hd__o211ai_2.ext:
+Extracting sky130_fd_sc_hd__o21a_4 into sky130_fd_sc_hd__o21a_4.ext:
+Extracting sky130_fd_sc_hd__or2_1 into sky130_fd_sc_hd__or2_1.ext:
+Extracting sky130_fd_sc_hd__xor2_1 into sky130_fd_sc_hd__xor2_1.ext:
+Extracting sky130_fd_sc_hd__nor3_2 into sky130_fd_sc_hd__nor3_2.ext:
+Extracting sky130_fd_sc_hd__a211oi_4 into sky130_fd_sc_hd__a211oi_4.ext:
+Extracting sky130_fd_sc_hd__nor3_1 into sky130_fd_sc_hd__nor3_1.ext:
+Extracting sky130_fd_sc_hd__and3_1 into sky130_fd_sc_hd__and3_1.ext:
+Extracting sky130_fd_sc_hd__nand3_1 into sky130_fd_sc_hd__nand3_1.ext:
+Extracting sky130_fd_sc_hd__a31oi_4 into sky130_fd_sc_hd__a31oi_4.ext:
+Extracting sky130_fd_sc_hd__o22ai_4 into sky130_fd_sc_hd__o22ai_4.ext:
+Extracting sky130_fd_sc_hd__o211a_2 into sky130_fd_sc_hd__o211a_2.ext:
+Extracting sky130_fd_sc_hd__or4_1 into sky130_fd_sc_hd__or4_1.ext:
+Extracting sky130_fd_sc_hd__nand4_1 into sky130_fd_sc_hd__nand4_1.ext:
+Extracting sky130_fd_sc_hd__or2b_1 into sky130_fd_sc_hd__or2b_1.ext:
+Extracting sky130_fd_sc_hd__o221a_2 into sky130_fd_sc_hd__o221a_2.ext:
+Extracting sky130_fd_sc_hd__o2bb2a_2 into sky130_fd_sc_hd__o2bb2a_2.ext:
+Extracting sky130_fd_sc_hd__a22oi_4 into sky130_fd_sc_hd__a22oi_4.ext:
+Extracting sky130_fd_sc_hd__o2111ai_4 into sky130_fd_sc_hd__o2111ai_4.ext:
+Extracting sky130_fd_sc_hd__nor4_1 into sky130_fd_sc_hd__nor4_1.ext:
+Extracting sky130_fd_sc_hd__a41oi_4 into sky130_fd_sc_hd__a41oi_4.ext:
+Extracting sky130_fd_sc_hd__a221o_2 into sky130_fd_sc_hd__a221o_2.ext:
+Extracting sky130_fd_sc_hd__o22a_4 into sky130_fd_sc_hd__o22a_4.ext:
+Extracting sky130_fd_sc_hd__nand2_4 into sky130_fd_sc_hd__nand2_4.ext:
+Extracting sky130_fd_sc_hd__a211o_1 into sky130_fd_sc_hd__a211o_1.ext:
+Extracting sky130_fd_sc_hd__o31a_1 into sky130_fd_sc_hd__o31a_1.ext:
+Extracting sky130_fd_sc_hd__a32oi_4 into sky130_fd_sc_hd__a32oi_4.ext:
+Extracting sky130_fd_sc_hd__a21oi_4 into sky130_fd_sc_hd__a21oi_4.ext:
+Extracting sky130_fd_sc_hd__a221oi_4 into sky130_fd_sc_hd__a221oi_4.ext:
+Extracting sky130_fd_sc_hd__and4_1 into sky130_fd_sc_hd__and4_1.ext:
+Extracting sky130_fd_sc_hd__o2111ai_2 into sky130_fd_sc_hd__o2111ai_2.ext:
+Extracting sky130_fd_sc_hd__a21o_2 into sky130_fd_sc_hd__a21o_2.ext:
+Extracting sky130_fd_sc_hd__o311a_1 into sky130_fd_sc_hd__o311a_1.ext:
+Extracting sky130_fd_sc_hd__o21bai_4 into sky130_fd_sc_hd__o21bai_4.ext:
+Extracting sky130_fd_sc_hd__o41ai_2 into sky130_fd_sc_hd__o41ai_2.ext:
+Extracting sky130_fd_sc_hd__o2bb2ai_1 into sky130_fd_sc_hd__o2bb2ai_1.ext:
+Extracting sky130_fd_sc_hd__a32oi_1 into sky130_fd_sc_hd__a32oi_1.ext:
+Extracting sky130_fd_sc_hd__xnor2_1 into sky130_fd_sc_hd__xnor2_1.ext:
+Extracting sky130_fd_sc_hd__o211a_4 into sky130_fd_sc_hd__o211a_4.ext:
+Extracting sky130_fd_sc_hd__nand4_2 into sky130_fd_sc_hd__nand4_2.ext:
+Extracting sky130_fd_sc_hd__a32o_2 into sky130_fd_sc_hd__a32o_2.ext:
+Extracting sky130_fd_sc_hd__nor2b_2 into sky130_fd_sc_hd__nor2b_2.ext:
+Extracting sky130_fd_sc_hd__o311ai_4 into sky130_fd_sc_hd__o311ai_4.ext:
+Extracting sky130_fd_sc_hd__xnor2_2 into sky130_fd_sc_hd__xnor2_2.ext:
+Extracting sky130_fd_sc_hd__o21a_2 into sky130_fd_sc_hd__o21a_2.ext:
+Extracting sky130_fd_sc_hd__o31ai_4 into sky130_fd_sc_hd__o31ai_4.ext:
+Extracting sky130_fd_sc_hd__a221o_1 into sky130_fd_sc_hd__a221o_1.ext:
+Extracting sky130_fd_sc_hd__and3b_1 into sky130_fd_sc_hd__and3b_1.ext:
+Extracting sky130_fd_sc_hd__o2111a_1 into sky130_fd_sc_hd__o2111a_1.ext:
+Extracting sky130_fd_sc_hd__o32ai_4 into sky130_fd_sc_hd__o32ai_4.ext:
+Extracting sky130_fd_sc_hd__a2bb2oi_1 into sky130_fd_sc_hd__a2bb2oi_1.ext:
+Extracting sky130_fd_sc_hd__a2bb2o_1 into sky130_fd_sc_hd__a2bb2o_1.ext:
+Extracting sky130_fd_sc_hd__nor2b_4 into sky130_fd_sc_hd__nor2b_4.ext:
+Extracting sky130_fd_sc_hd__o21bai_1 into sky130_fd_sc_hd__o21bai_1.ext:
+Extracting sky130_fd_sc_hd__a41o_1 into sky130_fd_sc_hd__a41o_1.ext:
+Extracting sky130_fd_sc_hd__o22a_2 into sky130_fd_sc_hd__o22a_2.ext:
+Extracting sky130_fd_sc_hd__o21bai_2 into sky130_fd_sc_hd__o21bai_2.ext:
+Extracting sky130_fd_sc_hd__o2111ai_1 into sky130_fd_sc_hd__o2111ai_1.ext:
+Extracting sky130_fd_sc_hd__a31o_4 into sky130_fd_sc_hd__a31o_4.ext:
+Extracting sky130_fd_sc_hd__a31o_2 into sky130_fd_sc_hd__a31o_2.ext:
+Extracting sky130_fd_sc_hd__and4b_1 into sky130_fd_sc_hd__and4b_1.ext:
+Extracting sky130_fd_sc_hd__or4_4 into sky130_fd_sc_hd__or4_4.ext:
+Extracting sky130_fd_sc_hd__or3_1 into sky130_fd_sc_hd__or3_1.ext:
+Extracting sky130_fd_sc_hd__a22o_2 into sky130_fd_sc_hd__a22o_2.ext:
+Extracting sky130_fd_sc_hd__o2bb2a_1 into sky130_fd_sc_hd__o2bb2a_1.ext:
+Extracting sky130_fd_sc_hd__a22oi_1 into sky130_fd_sc_hd__a22oi_1.ext:
+Extracting sky130_fd_sc_hd__or3_2 into sky130_fd_sc_hd__or3_2.ext:
+Extracting sky130_fd_sc_hd__o32a_1 into sky130_fd_sc_hd__o32a_1.ext:
+Extracting sky130_fd_sc_hd__o221a_1 into sky130_fd_sc_hd__o221a_1.ext:
+Extracting sky130_fd_sc_hd__a21bo_4 into sky130_fd_sc_hd__a21bo_4.ext:
+Extracting sky130_fd_sc_hd__o41a_1 into sky130_fd_sc_hd__o41a_1.ext:
+Extracting sky130_fd_sc_hd__and4_2 into sky130_fd_sc_hd__and4_2.ext:
+Extracting sky130_fd_sc_hd__xor2_2 into sky130_fd_sc_hd__xor2_2.ext:
+Extracting sky130_fd_sc_hd__nand2_8 into sky130_fd_sc_hd__nand2_8.ext:
+Extracting sky130_fd_sc_hd__a2111o_1 into sky130_fd_sc_hd__a2111o_1.ext:
+Extracting sky130_fd_sc_hd__a21boi_1 into sky130_fd_sc_hd__a21boi_1.ext:
+Extracting sky130_fd_sc_hd__a2bb2oi_4 into sky130_fd_sc_hd__a2bb2oi_4.ext:
+Extracting sky130_fd_sc_hd__a221oi_1 into sky130_fd_sc_hd__a221oi_1.ext:
+Extracting DSP into DSP.ext:
+Extracting RAM_IO into RAM_IO.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_contact_39 into sky130_sram_1kbyte_1rw1r_32x256_8_contact_39.ext:
+Extracting sky130_fd_bd_sram__openram_dff into sky130_fd_bd_sram__openram_dff.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_row_addr_dff into sky130_sram_1kbyte_1rw1r_32x256_8_row_addr_dff.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_col_addr_dff into sky130_sram_1kbyte_1rw1r_32x256_8_col_addr_dff.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff into sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_cr_3 into sky130_sram_1kbyte_1rw1r_32x256_8_cr_3.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1 into sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0 into sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array into sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_0 into sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0 into sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0 into sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_5 into sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_5.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain into sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_4 into sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_4.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pnand3 into sky130_sram_1kbyte_1rw1r_32x256_8_pnand3.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pand3_0 into sky130_sram_1kbyte_1rw1r_32x256_8_pand3_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_3 into sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_3.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pand3 into sky130_sram_1kbyte_1rw1r_32x256_8_pand3.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_2 into sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_2.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_1 into sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_1.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_rw into sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_rw.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_cr_5 into sky130_sram_1kbyte_1rw1r_32x256_8_cr_5.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0 into sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_6 into sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_6.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_r into sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_r.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_cr_4 into sky130_sram_1kbyte_1rw1r_32x256_8_cr_4.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_data_dff into sky130_sram_1kbyte_1rw1r_32x256_8_data_dff.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinvbuf into sky130_sram_1kbyte_1rw1r_32x256_8_pinvbuf.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0 into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand2_dec into sky130_fd_bd_sram__openram_dp_nand2_dec.ext:
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec_0 into sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver into sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver_array into sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver_array.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec into sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand3_dec into sky130_fd_bd_sram__openram_dp_nand3_dec.ext:
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec into sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode3x8 into sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode3x8.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec into sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode2x4 into sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode2x4.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_decoder into sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_decoder.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0 into sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_port_address into sky130_sram_1kbyte_1rw1r_32x256_8_port_address.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_0 into sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0 into sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0.ext:
+Extracting sky130_fd_bd_sram__openram_sense_amp into sky130_fd_bd_sram__openram_sense_amp.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_sense_amp_array into sky130_sram_1kbyte_1rw1r_32x256_8_sense_amp_array.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_precharge_1 into sky130_sram_1kbyte_1rw1r_32x256_8_precharge_1.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0 into sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_port_data_0 into sky130_sram_1kbyte_1rw1r_32x256_8_port_data_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_column_mux into sky130_sram_1kbyte_1rw1r_32x256_8_column_mux.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array into sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pinv into sky130_sram_1kbyte_1rw1r_32x256_8_pinv.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pdriver into sky130_sram_1kbyte_1rw1r_32x256_8_pdriver.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pnand2 into sky130_sram_1kbyte_1rw1r_32x256_8_pnand2.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_pand2 into sky130_sram_1kbyte_1rw1r_32x256_8_pand2.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array into sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array.ext:
+Extracting sky130_fd_bd_sram__openram_write_driver into sky130_fd_bd_sram__openram_write_driver.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_write_driver_array into sky130_sram_1kbyte_1rw1r_32x256_8_write_driver_array.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_precharge_0 into sky130_sram_1kbyte_1rw1r_32x256_8_precharge_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array into sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_port_data into sky130_sram_1kbyte_1rw1r_32x256_8_port_data.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_row into sky130_fd_bd_sram__openram_dp_cell_cap_row.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array_0 into sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array into sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_col into sky130_fd_bd_sram__openram_dp_cell_cap_col.ext:
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array into sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array_0 into sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_dummy into sky130_fd_bd_sram__openram_dp_cell_dummy.ext:
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "WL1" and "wl1" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "WL0" and "wl0" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_dummy_array into sky130_sram_1kbyte_1rw1r_32x256_8_dummy_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_replica into sky130_fd_bd_sram__openram_dp_cell_replica.ext:
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "WL1" and "wl1" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "WL0" and "wl0" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+sky130_fd_bd_sram__openram_dp_cell_replica: 3 warnings
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_replica_column_0 into sky130_sram_1kbyte_1rw1r_32x256_8_replica_column_0.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_replica_column into sky130_sram_1kbyte_1rw1r_32x256_8_replica_column.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell into sky130_fd_bd_sram__openram_dp_cell.ext:
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "WL1" and "wl1" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "WL0" and "wl0" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+sky130_fd_bd_sram__openram_dp_cell: 2 warnings
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_bitcell_array into sky130_sram_1kbyte_1rw1r_32x256_8_bitcell_array.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array into sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8_bank into sky130_sram_1kbyte_1rw1r_32x256_8_bank.ext:
+Extracting sky130_sram_1kbyte_1rw1r_32x256_8 into sky130_sram_1kbyte_1rw1r_32x256_8.ext:
+Extracting sky130_fd_sc_hd__dlxtn_1 into sky130_fd_sc_hd__dlxtn_1.ext:
+Extracting BlockRAM_1KB into BlockRAM_1KB.ext:
+Extracting sky130_fd_sc_hd__dfrtp_1 into sky130_fd_sc_hd__dfrtp_1.ext:
+Extracting sky130_fd_sc_hd__dfstp_1 into sky130_fd_sc_hd__dfstp_1.ext:
+Extracting sky130_fd_sc_hd__o31ai_1 into sky130_fd_sc_hd__o31ai_1.ext:
+Extracting sky130_fd_sc_hd__a311o_2 into sky130_fd_sc_hd__a311o_2.ext:
+Extracting sky130_fd_sc_hd__or4b_1 into sky130_fd_sc_hd__or4b_1.ext:
+Extracting sky130_fd_sc_hd__a31oi_1 into sky130_fd_sc_hd__a31oi_1.ext:
+Extracting sky130_fd_sc_hd__or4_2 into sky130_fd_sc_hd__or4_2.ext:
+Extracting sky130_fd_sc_hd__dfrtp_2 into sky130_fd_sc_hd__dfrtp_2.ext:
+Extracting sky130_fd_sc_hd__dfrtp_4 into sky130_fd_sc_hd__dfrtp_4.ext:
+Extracting sky130_fd_sc_hd__nor4b_2 into sky130_fd_sc_hd__nor4b_2.ext:
+Extracting sky130_fd_sc_hd__or4bb_2 into sky130_fd_sc_hd__or4bb_2.ext:
+Extracting sky130_fd_sc_hd__or4b_2 into sky130_fd_sc_hd__or4b_2.ext:
+Extracting sky130_fd_sc_hd__or3b_2 into sky130_fd_sc_hd__or3b_2.ext:
+Extracting sky130_fd_sc_hd__nand2b_4 into sky130_fd_sc_hd__nand2b_4.ext:
+Extracting sky130_fd_sc_hd__and4bb_1 into sky130_fd_sc_hd__and4bb_1.ext:
+Extracting sky130_fd_sc_hd__dfstp_4 into sky130_fd_sc_hd__dfstp_4.ext:
+Extracting sky130_fd_sc_hd__dfstp_2 into sky130_fd_sc_hd__dfstp_2.ext:
+Extracting sky130_fd_sc_hd__nand2b_1 into sky130_fd_sc_hd__nand2b_1.ext:
+Extracting sky130_fd_sc_hd__nand2b_2 into sky130_fd_sc_hd__nand2b_2.ext:
+Extracting sky130_fd_sc_hd__or4bb_1 into sky130_fd_sc_hd__or4bb_1.ext:
+Extracting sky130_fd_sc_hd__or4bb_4 into sky130_fd_sc_hd__or4bb_4.ext:
+Extracting eFPGA_Config into eFPGA_Config.ext:
+Extracting N_term_RAM_IO into N_term_RAM_IO.ext:
+Extracting N_term_single into N_term_single.ext:
+Extracting N_term_DSP into N_term_DSP.ext:
+Extracting N_term_single2 into N_term_single2.ext:
+Extracting sky130_fd_sc_hd__dfxtp_2 into sky130_fd_sc_hd__dfxtp_2.ext:
+Extracting sky130_fd_sc_hd__nor2_8 into sky130_fd_sc_hd__nor2_8.ext:
+Extracting sky130_fd_sc_hd__or2_4 into sky130_fd_sc_hd__or2_4.ext:
+Extracting sky130_fd_sc_hd__or2b_4 into sky130_fd_sc_hd__or2b_4.ext:
+Extracting sky130_fd_sc_hd__and2b_4 into sky130_fd_sc_hd__and2b_4.ext:
+Extracting S_term_RAM_IO into S_term_RAM_IO.ext:
+Extracting S_term_single into S_term_single.ext:
+Extracting sky130_fd_sc_hd__and2b_2 into sky130_fd_sc_hd__and2b_2.ext:
+Extracting sky130_fd_sc_hd__and4_4 into sky130_fd_sc_hd__and4_4.ext:
+Extracting S_term_DSP into S_term_DSP.ext:
+Extracting sky130_fd_sc_hd__dfxtp_4 into sky130_fd_sc_hd__dfxtp_4.ext:
+Extracting S_term_single2 into S_term_single2.ext:
+Extracting sky130_fd_sc_hd__clkdlybuf4s25_1 into sky130_fd_sc_hd__clkdlybuf4s25_1.ext:
+Extracting sky130_fd_sc_hd__clkinv_4 into sky130_fd_sc_hd__clkinv_4.ext:
+Extracting user_project_wrapper into user_project_wrapper.ext:
+Created database crash recovery file /tmp//MAG5314.eg3DDC
+Total of 15 warnings.
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 2
+Devs merged: 2
+Devs merged: 2
+Devs merged: 2
+Devs merged: 4
+Devs merged: 10
+Devs merged: 10
+Devs merged: 12
+Devs merged: 14
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 74
+Devs merged: 74
+Devs merged: 80
+Devs merged: 80
+Devs merged: 98
+Devs merged: 98
+Devs merged: 104
+Devs merged: 132
+Devs merged: 148
+Devs merged: 148
+Devs merged: 148
+Devs merged: 150
+Devs merged: 150
+Devs merged: 156
+Devs merged: 156
+Devs merged: 160
+Devs merged: 178
+Devs merged: 178
+Devs merged: 182
+Devs merged: 182
+Devs merged: 184
+Devs merged: 190
+Devs merged: 192
+Devs merged: 204
+Devs merged: 206
+Devs merged: 224
+Devs merged: 224
+Devs merged: 236
+Devs merged: 242
+Devs merged: 244
+Devs merged: 244
+Devs merged: 244
+Devs merged: 244
+Devs merged: 262
+Devs merged: 262
+Devs merged: 268
+Devs merged: 268
+Devs merged: 268
+Devs merged: 274
+Devs merged: 274
+Devs merged: 302
+Devs merged: 302
+Devs merged: 302
+Devs merged: 302
+Devs merged: 332
+Devs merged: 336
+Devs merged: 336
+Devs merged: 342
+Devs merged: 342
+Devs merged: 342
+Devs merged: 366
+Devs merged: 366
+Devs merged: 386
+Devs merged: 396
+Devs merged: 426
+Devs merged: 434
+Devs merged: 434
+Devs merged: 434
+Devs merged: 434
+Devs merged: 436
+Devs merged: 448
+Devs merged: 448
+Devs merged: 466
+Devs merged: 476
+Devs merged: 480
+Devs merged: 482
+Devs merged: 482
+Devs merged: 484
+Devs merged: 486
+Devs merged: 516
+Devs merged: 516
+Devs merged: 516
+Devs merged: 516
+Devs merged: 546
+Devs merged: 570
+Devs merged: 576
+Devs merged: 576
+Devs merged: 576
+Devs merged: 586
+Devs merged: 616
+Devs merged: 634
+Devs merged: 638
+Devs merged: 656
+Devs merged: 658
+Devs merged: 660
+Devs merged: 668
+Devs merged: 670
+Devs merged: 670
+Devs merged: 670
+Devs merged: 680
+Devs merged: 680
+Devs merged: 680
+Devs merged: 686
+Devs merged: 686
+Devs merged: 686
+Devs merged: 688
+Devs merged: 700
+Devs merged: 724
+Devs merged: 724
+Devs merged: 724
+Devs merged: 724
+Devs merged: 732
+Devs merged: 742
+Devs merged: 770
+Devs merged: 780
+Devs merged: 786
+Devs merged: 806
+Devs merged: 814
+Devs merged: 814
+Devs merged: 814
+Devs merged: 814
+Devs merged: 814
+Devs merged: 816
+Devs merged: 846
+Devs merged: 870
+Devs merged: 880
+Devs merged: 880
+Devs merged: 880
+Devs merged: 910
+Devs merged: 910
+Devs merged: 910
+Devs merged: 910
+Devs merged: 918
+Devs merged: 920
+Devs merged: 920
+Devs merged: 920
+Devs merged: 922
+Devs merged: 952
+Devs merged: 976
+Devs merged: 1006
+Devs merged: 1008
+Devs merged: 1008
+Devs merged: 1008
+Devs merged: 1022
+Devs merged: 1032
+Devs merged: 1032
+Devs merged: 1032
+Devs merged: 1034
+Devs merged: 1045
+Devs merged: 1047
+Devs merged: 1047
+Devs merged: 1053
+Devs merged: 1053
+Devs merged: 1053
+Devs merged: 1055
+Devs merged: 1055
+Devs merged: 1055
+Devs merged: 1055
+Devs merged: 1055
+Devs merged: 1061
+Devs merged: 1067
+Devs merged: 1073
+Devs merged: 1073
+Devs merged: 1073
+Devs merged: 1081
+Devs merged: 1081
+Devs merged: 1081
+Devs merged: 1085
+Devs merged: 1085
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1087
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1089
+Devs merged: 1091
+Devs merged: 1091
+Devs merged: 1091
+Devs merged: 1091
+Devs merged: 1091
+Devs merged: 1093
+Devs merged: 1093
+Devs merged: 1093
+Devs merged: 1093
+Devs merged: 1093
+Devs merged: 1093
+Devs merged: 1099
+Devs merged: 1101
+Devs merged: 1123
+Devs merged: 1123
+Devs merged: 1123
+Devs merged: 1123
+Devs merged: 1123
+Devs merged: 1131
+Devs merged: 1155
+Devs merged: 1231
+Devs merged: 1233
+Devs merged: 1233
+Devs merged: 1267
+Devs merged: 1267
+Devs merged: 1267
+Devs merged: 1267
+Devs merged: 1267
+Devs merged: 1267
+Devs merged: 1313
+Devs merged: 1317
+Devs merged: 1331
+Devs merged: 1331
+Devs merged: 1343
+Devs merged: 1343
+Devs merged: 1343
+Devs merged: 1343
+Devs merged: 1343
+Devs merged: 1421
+Devs merged: 1421
+Devs merged: 1463
+Devs merged: 1463
+Devs merged: 1463
+Devs merged: 1463
+Devs merged: 1463
+Devs merged: 1463
+Devs merged: 1463
+Devs merged: 1463
+Devs merged: 1463
+Devs merged: 1463
+Devs merged: 1463
+Devs merged: 1475
+Devs merged: 1481
+Devs merged: 1487
+Devs merged: 1487
+Devs merged: 1493
+Devs merged: 1493
+Devs merged: 1493
+Devs merged: 1493
+Devs merged: 1493
+Devs merged: 1501
+Devs merged: 1503
+Devs merged: 1505
+Devs merged: 1507
+Devs merged: 1511
+Devs merged: 1519
+Devs merged: 1519
+Devs merged: 1521
+Devs merged: 1523
+Devs merged: 1525
+Devs merged: 1525
+Devs merged: 1525
+Devs merged: 1525
+Devs merged: 1525
+Devs merged: 1527
+Devs merged: 1527
+exttospice finished.
+Using technology "sky130A", version 1.0.470-0-g6d4d117
+Creating layout hierarchy in /home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/tmp/nowell.ext/user_project_wrapper.hier...

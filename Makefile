@@ -17,7 +17,7 @@ MAKEFLAGS+=--warn-undefined-variables
 
 export CARAVEL_ROOT?=$(PWD)/caravel
 export UPRJ_ROOT?=$(PWD)
-PRECHECK_ROOT?=${HOME}/mpw_precheck
+PRECHECK_ROOT?=${PWD}/mpw_precheck
 export MCW_ROOT?=$(PWD)/mgmt_core_wrapper
 SIM?=RTL
 

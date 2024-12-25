@@ -1,8 +1,8 @@
-CARAVEL_ROOT: /usr/caravel_user_project/caravel
-MCW_ROOT: /usr/caravel_user_project/mgmt_core_wrapper
+CARAVEL_ROOT: /home/asma/open_eFPGA_dirk/caravel
+MCW_ROOT: /home/asma/open_eFPGA_dirk/mgmt_core_wrapper
 PDK: sky130A
-PDK_ROOT: /usr/pdk
-USER_PROJECT_ROOT: /usr/caravel_user_project
+PDK_ROOT: /home/asma/open_eFPGA_dirk/dependencies/pdks
+USER_PROJECT_ROOT: /home/asma/open_eFPGA_dirk
 caravan: false
 clk: 25
 emailto:

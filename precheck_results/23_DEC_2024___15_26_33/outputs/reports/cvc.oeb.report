@@ -1,0 +1,39 @@
+ gpio |   in   |   out  | analog |  oeb min/sim/max  | Message
+   0  |        |  vssd* |        | vssd*/vssd*/vssd* | 
+   1  |        |  vssd* |        | vssd*/vssd*/vssd* | 
+   2  |        |  vssd* |        | vssd*/vssd*/vssd* | 
+   3  |        |  vssd* |        | vssd*/vssd*/vssd* | 
+   4  |        |  vssd* |        | vssd*/vssd*/vssd* | 
+   5  |        |  vssd* |        | vssd*/vssd*/vssd* | 
+   6  |        |  vssd* |        | vssd*/vssd*/vssd* | 
+   7  |      4 |  vssd* |        | vccd*/vccd*/vccd* | 
+   8  |      4 |  vssd* |        | vccd*/vccd*/vccd* | 
+   9  |      4 |  vssd* |        | vccd*/vccd*/vccd* | 
+  10  |      4 |  vssd* |        | vccd*/vccd*/vccd* | 
+  11  |      4 |  vssd* |        | vccd*/vccd*/vccd* | 
+  12  |      4 |  vssd* |        | vccd*/vccd*/vccd* | 
+  13  |        |      2 |        | vssd*/vssd*/vssd* | 
+  14  |      4 |      2 |        | vssd*/     /vccd* | 
+  15  |      4 |      2 |        | vssd*/     /vccd* | 
+  16  |      4 |      2 |        | vssd*/     /vccd* | 
+  17  |      4 |      2 |        | vssd*/     /vccd* | 
+  18  |      4 |      2 |        | vssd*/     /vccd* | 
+  19  |      4 |      2 |        | vssd*/     /vccd* | 
+  20  |      4 |      2 |        | vssd*/     /vccd* | 
+  21  |      4 |      2 |        | vssd*/     /vccd* | 
+  22  |      4 |      2 |        | vssd*/     /vccd* | 
+  23  |      4 |      2 |        | vssd*/     /vccd* | 
+  24  |      4 |      2 |        | vssd*/     /vccd* | 
+  25  |      4 |      2 |        | vssd*/     /vccd* | 
+  26  |      4 |      2 |        | vssd*/     /vccd* | 
+  27  |      4 |      2 |        | vssd*/     /vccd* | 
+  28  |      4 |      2 |        | vssd*/     /vccd* | 
+  29  |      4 |      2 |        | vssd*/     /vccd* | 
+  30  |      4 |      2 |        | vssd*/     /vccd* | 
+  31  |      4 |      2 |        | vssd*/     /vccd* | 
+  32  |      4 |      2 |        | vssd*/     /vccd* | 
+  33  |      4 |      2 |        | vssd*/     /vccd* | 
+  34  |      4 |      2 |        | vssd*/     /vccd* | 
+  35  |      4 |      2 |        | vssd*/     /vccd* | 
+  36  |      4 |      2 |        | vssd*/     /vccd* | 
+  37  |      4 |  vssd* |        | vccd*/vccd*/vccd* | 

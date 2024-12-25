@@ -1,0 +1,61 @@
+# User config
+set ::env(DESIGN_NAME) S_term_DSP
+
+# Change if needed
+set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
+
+set ::env(SYNTH_MAX_FANOUT) 5
+set ::env(FP_SIZING) "absolute"
+set ::env(DIE_AREA) "0 0 223.275 40"
+#set ::env(FP_CORE_UTIL) 30
+#set ::env(PL_TARGET_DENSITY) [ expr ($::env(FP_CORE_UTIL)+5) / 100.0 ]
+
+# Fill this
+#set ::env(CLOCK_PERIOD) "40"
+#set ::env(CLOCK_PORT) "UserCLK"
+set ::env(CLOCK_TREE_SYNTH) 0
+set ::env(CELL_PAD) 4
+
+set filename $::env(DESIGN_DIR)/$::env(PDK)_$::env(STD_CELL_LIBRARY)_config.tcl
+if { [file exists $filename] == 1} {
+	source $filename
+}
+
+#####
+#set ::env(SYNTH_TOP_LEVEL) "1"
+set ::env(SYNTH_FLAT_TOP) "0"
+set ::env(SYNTH_NO_FLAT) "1"
+# set in configuration/synthesis.tcl
+# DESIGN_IS_CORE 1 default, 0 is a macro
+set ::env(DESIGN_IS_CORE) 0  
+set ::env(FP_PDN_CORE_RING) 0
+set ::env(GLB_RT_MAXLAYER) 5
+#set ::env(SYNTH_LATCH_MAP) $::env(DESIGN_DIR)/gate_map_cus.v
+#set ::env(SYNTH_LATCH_MAP) $::env(DESIGN_DIR)/gate_map_std.v
+set ::env(SYNTH_LATCH_MAP) $::env(DESIGN_DIR)/gate_map.v
+#change sdc file 
+set ::env(BASE_SDC_FILE) $::env(DESIGN_DIR)/S_term_DSP.sdc
+
+set ::env(FP_IO_VLENGTH) 0.8
+set ::env(FP_IO_HLENGTH) 0.8
+set ::env(FP_IO_HTHICKNESS_MULT) 2
+set ::env(FP_IO_VTHICKNESS_MULT) 2
+set ::env(ROUTING_CORES) 12
+set ::env(TOP_MARGIN_MULT) 2
+set ::env(BOTTOM_MARGIN_MULT) 2
+set ::env(FP_IO_MODE) 0
+set ::env(FP_PIN_ORDER_CFG) $::env(DESIGN_DIR)/pin_order.cfg
+
+set ::env(VDD_NETS) "vccd1"
+set ::env(GND_NETS) "vssd1"
+
+####
+#set ::env(LIB_SYNTH) [glob $::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/sky130_fd_sc_hd__tt_025C_1v80.lib $::env(OPENLANE_ROOT)/designs/N_term_single/cus_mux/custom_mux.lib]
+#set ::env(LIB_SYNTH) $::env(DESIGN_DIR)/cus_mux/merged_tt.lib
+#set ::env(SYNTH_READ_BLACKBOX_LIB) 1
+#set ::env(EXTRA_LIBS) $::env(DESIGN_DIR)/cus_mux/custom_mux.lib
+#set ::env(VERILOG_FILES_BLACKBOX) $::env(DESIGN_DIR)/src/cus_tg_mux41_buf.v
+#set ::env(VERILOG_FILES_BLACKBOX) $::env(DESIGN_DIR)/cus_mux/cus_tg_mux41_buf.v
+#set ::env(EXTRA_LEFS) $::env(DESIGN_DIR)/cus_mux/cus_tg_mux41_buf.lef
+#set ::env(TECH_LEF) $::env(OPENLANE_ROOT)/designs/N_term_single/cus_mux/merged_lef.lef
+set ::env(EXTRA_GDS_FILES) $::env(DESIGN_DIR)/cus_mux/cus_tg_mux41_buf.gds

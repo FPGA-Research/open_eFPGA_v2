@@ -1,0 +1,33 @@
+{
+  "DESIGN_NAME": "S_term_single2",
+  "VERILOG_FILES": [
+    "dir::src/*.v"
+  ],
+  "MAX_FANOUT_CONSTRAINT": 5,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 233.5 50",
+  "GRT_OBS": "met5 0 0 233.5 50",
+  "FP_IO_VEXTEND": 1.5,
+  "FP_IO_HEXTEND": 1.5,
+  "RUN_CTS": 1,
+  "CLOCK_PERIOD": "40",
+  "CLOCK_PORT": "UserCLK",
+  "CELL_PAD": 4,
+  "SYNTH_NO_FLAT": "1",
+  "DESIGN_IS_CORE": 0,
+  "FP_PDN_CORE_RING": 0,
+  "GLB_RT_MAXLAYER": "met4",
+  "SYNTH_LATCH_MAP": "dir::gate_map.v",
+  "BASE_SDC_FILE": "dir::S_term_single2.sdc",
+  "FP_IO_VLENGTH": 0.8,
+  "FP_IO_HLENGTH": 0.8,
+  "FP_IO_HTHICKNESS_MULT": 2,
+  "FP_IO_VTHICKNESS_MULT": 2,
+  "ROUTING_CORES": 12,
+  "TOP_MARGIN_MULT": 2,
+  "BOTTOM_MARGIN_MULT": 2,
+  "FP_IO_MODE": 0,
+  "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+  "VDD_NETS": "vccd1",
+  "GND_NETS": "vssd1"
+}

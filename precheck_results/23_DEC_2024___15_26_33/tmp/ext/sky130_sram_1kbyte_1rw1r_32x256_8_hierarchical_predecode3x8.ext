@@ -1,0 +1,206 @@
+timestamp 1734975199
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_2 1 0 400 0 1 0
+use sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_1 1 0 400 0 -1 790
+use sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7 1 0 1782 0 1 0
+use sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6 1 0 1782 0 -1 790
+use sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0 1 0 400 0 1 790
+use sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5 1 0 1782 0 1 790
+use sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4 1 0 1782 0 -1 1580
+use sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3 1 0 1782 0 1 1580
+use sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2 1 0 1782 0 -1 2370
+use sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1 1 0 1782 0 1 2370
+use sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0 1 0 1782 0 -1 3160
+port "vdd_uq0" 9 3639 1136 3737 1234 m3
+port "vdd_uq0" 8 3639 2716 3737 2814 m3
+port "vdd_uq0" 7 3639 1926 3737 2024 m3
+port "vdd_uq0" 6 3639 346 3737 444 m3
+port "gnd_uq0" 18 3243 2716 3341 2814 m3
+port "gnd_uq0" 17 3243 1926 3341 2024 m3
+port "gnd_uq0" 16 3243 1136 3341 1234 m3
+port "gnd_uq0" 15 3243 346 3341 444 m3
+port "vdd" 4 2861 1159 2959 1257 m3
+port "vdd" 4 2861 369 2959 467 m3
+port "vdd" 4 2861 1949 2959 2047 m3
+port "vdd" 4 2861 2739 2959 2837 m3
+port "vdd_uq1" 13 2429 1949 2527 2047 m3
+port "vdd_uq1" 12 2429 1159 2527 1257 m3
+port "vdd_uq1" 11 2429 369 2527 467 m3
+port "vdd_uq1" 10 2429 2739 2527 2837 m3
+port "gnd" 5 2004 369 2102 467 m3
+port "gnd" 5 2004 2739 2102 2837 m3
+port "gnd" 5 2004 1949 2102 2047 m3
+port "gnd" 5 2004 1159 2102 1257 m3
+port "vdd_uq2" 14 945 346 1043 444 m3
+port "gnd_uq1" 19 549 346 647 444 m3
+port "in_2" 3 231 931 277 989 m1
+port "in_1" 2 151 591 197 649 m1
+port "in_0" 1 71 141 117 199 m1
+node "vdd_uq0" 0 0 3639 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "gnd_uq0" 0 0 3243 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 0 0 2861 2739 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd_uq1" 0 0 2429 2739 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "gnd" 0 0 2004 1159 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd_uq2" 0 0 945 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "gnd_uq1" 0 0 549 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_0" 0 0 3259 103 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_1" 0 0 3259 653 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_2" 0 0 3259 893 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1125_877#" 0 0 1125 877 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_3" 0 0 3259 1443 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_4" 0 0 3259 1683 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1125_637#" 0 0 1125 637 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_5" 0 0 3259 2233 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1125_87#" 0 0 1125 87 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_6" 0 0 3259 2473 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "in_2" 0 0 231 931 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "in_1" 0 0 151 591 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_7" 0 0 3259 3023 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "in_0" 0 0 71 141 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/vdd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/vdd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/vdd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/vdd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/vdd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/vdd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/vdd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/vdd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/vdd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/vdd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/vdd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/vdd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/vdd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/vdd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/vdd_uq0" "vdd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/gnd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/gnd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/gnd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/gnd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/gnd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/gnd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/gnd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/gnd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/gnd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/gnd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/gnd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/gnd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/gnd_uq0" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/gnd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/gnd_uq0" "gnd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/A"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/A" "in_2"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/vdd_uq1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/vdd_uq1" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/vdd_uq1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/vdd_uq1" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/vdd_uq1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/vdd_uq1" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/vdd_uq1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/vdd_uq1" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/vdd_uq1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/vdd_uq1" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/vdd" "vdd"
+merge "vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/vdd_uq1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/vdd_uq1" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/vdd_uq1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/vdd_uq1" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/VDD" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/vdd_uq1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/vdd_uq1" "vdd_uq1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_1/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_1/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_2/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_2/gnd" "VSUBS"
+merge "VSUBS" "gnd_uq1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_1/A"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_1/A" "in_1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_2/Z"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_2/Z" "li_1125_87#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/C" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/Z"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/Z" "li_1125_877#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/GND" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/gnd" "gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/A" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_2/A"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_2/A" "in_0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_fd_bd_sram__openram_dp_nand3_dec_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_1/Z"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_1/Z" "li_1125_637#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_4/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/Z" "out_3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_1/vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_1/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_2/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_2/vdd" "vdd_uq2"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_5/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/Z" "out_2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_7/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/Z" "out_0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_6/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/Z" "out_1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_3/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/Z" "out_4" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_2/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/Z" "out_5" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_1/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/Z" "out_6" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0/Z" "out_7" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

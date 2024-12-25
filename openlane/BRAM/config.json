@@ -1,0 +1,60 @@
+{
+   "DESIGN_NAME": "BlockRAM_1KB",
+   "VERILOG_FILES": [ "dir::./src/BlockRAM_1KB.v"],
+
+   "RUN_LINTER": 0,
+   "MAX_FANOUT_CONSTRAINT": 5,
+   "FP_SIZING": "absolute",
+   "DIE_AREA": "0 0 550 440",
+
+   "CLOCK_PERIOD": "40",
+   "CLOCK_PORT": "clk",
+   "RUN_CTS": 1,
+   "CELL_PAD": 4,
+
+   "DESIGN_IS_CORE": 0,
+   "FP_PDN_CORE_RING": 1,
+   "RT_MAX_LAYER": "met4",
+   "FP_PDN_HORIZONTAL_LAYER": "met5",
+   "FP_PDN_VERTICAL_LAYER": "met4",
+
+   "SYNTH_NO_FLAT": 0,
+   "SYNTH_FLAT_TOP": 1,
+   "SYNTH_READ_BLACKBOX_LIB": 1,
+
+   "FP_IO_VLENGTH": 4,
+   "FP_IO_HLENGTH": 4,
+   "FP_IO_HTHICKNESS_MULT": 1,
+   "FP_IO_VTHICKNESS_MULT": 1,
+  
+   "TOP_MARGIN_MULT": 2,
+   "BOTTOM_MARGIN_MULT": 2,
+   "FP_IO_MODE": 0,
+   "FP_PIN_ORDER_CFG": ["dir::./pin_changed.cfg"],
+   "FP_PDN_MACRO_HOOKS": ["memory_cell vccd1 vssd1 vccd1 vssd1"],
+   "FP_PDN_MULTILAYER": 1,
+   "GRT_ALLOW_CONGESTION": 1,
+   "RUN_MAGIC_DRC": 0,
+   
+   "ROUTING_CORES": 12,
+   "VDD_PINS": "vccd1",
+   "GND_PINS": "vssd1",
+   "VDD_NETS": "vccd1",
+   "GND_NETS": "vssd1",
+   "FP_PDN_VOFFSET": 10,
+   "FP_PDN_HOFFSET": 25,
+   "FP_PDN_VPITCH": 8,
+   "FP_PDN_HPITCH": 380,
+   "FP_PDN_IRDROP": 1,
+   "FP_PDN_CHECK_NODES": 1,
+   "LVS_CONNECT_BY_LABEL": 1,
+   "MACRO_PLACEMENT_CFG": [ "dir::./macros/placements/macro_placement.cfg"],
+    "SYNTH_USE_PG_PINS_DEFINES": "USE_POWER_PINS",
+   "FP_PDN_ENABLE_GLOBAL_CONNECTIONS": 1,
+   "FP_PDN_CFG": "dir::pdn_cfg.tcl",
+   "GRT_OBS": "met4 5 25 52 425",
+
+   "VERILOG_FILES_BLACKBOX": [ "dir::./macros/verilog/sky130_sram_1kbyte_1rw1r_32x256_8.v"],
+   "EXTRA_LEFS": [ "dir::./macros/lef/sky130_sram_1kbyte_1rw1r_32x256_8.lef"],
+   "EXTRA_GDS_FILES": [ "dir::./macros/gds/sky130_sram_1kbyte_1rw1r_32x256_8.gds"]
+}

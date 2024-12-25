@@ -1,0 +1,284 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO custom_mux41_buf
+  CLASS CORE ;
+  FOREIGN custom_mux41_buf ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 6.900 BY 2.720 ;
+  SYMMETRY X Y R90 ;
+  SITE unithd ;
+  PIN S0
+    ANTENNAGATEAREA 0.216000 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 0.500 1.275 0.670 1.630 ;
+        RECT 4.040 1.275 4.210 1.625 ;
+        RECT 1.190 0.675 1.360 1.105 ;
+        RECT 4.730 0.675 4.900 1.105 ;
+      LAYER mcon ;
+        RECT 0.500 1.380 0.670 1.550 ;
+        RECT 4.040 1.375 4.210 1.545 ;
+        RECT 1.190 0.795 1.360 0.965 ;
+        RECT 4.730 0.795 4.900 0.965 ;
+      LAYER met1 ;
+        RECT 0.470 1.550 0.710 1.610 ;
+        RECT 0.470 1.380 1.015 1.550 ;
+        RECT 0.470 1.320 0.710 1.380 ;
+        RECT 0.875 0.965 1.015 1.380 ;
+        RECT 3.980 1.545 4.250 1.575 ;
+        RECT 3.980 1.375 4.555 1.545 ;
+        RECT 3.980 1.315 4.250 1.375 ;
+        RECT 1.160 0.965 1.390 1.025 ;
+        RECT 0.875 0.795 1.390 0.965 ;
+        RECT 4.415 0.965 4.555 1.375 ;
+        RECT 4.700 0.965 4.930 1.025 ;
+        RECT 4.415 0.795 4.930 0.965 ;
+        RECT 1.160 0.520 1.390 0.795 ;
+        RECT 4.700 0.520 4.930 0.795 ;
+        RECT 1.160 0.380 4.930 0.520 ;
+    END
+  END S0
+  PIN S0N
+    ANTENNAGATEAREA 0.216000 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 1.185 1.275 1.355 1.625 ;
+        RECT 4.725 1.275 4.895 1.625 ;
+        RECT 0.500 0.675 0.670 1.105 ;
+        RECT 4.040 0.675 4.210 1.105 ;
+      LAYER mcon ;
+        RECT 1.185 1.375 1.355 1.545 ;
+        RECT 4.725 1.375 4.895 1.545 ;
+        RECT 0.500 0.795 0.670 0.965 ;
+        RECT 4.040 0.795 4.210 0.965 ;
+      LAYER met1 ;
+        RECT 0.190 2.200 4.895 2.340 ;
+        RECT 0.190 1.025 0.330 2.200 ;
+        RECT 1.185 1.605 1.355 2.200 ;
+        RECT 1.155 1.315 1.385 1.605 ;
+        RECT 0.190 0.725 0.730 1.025 ;
+        RECT 3.530 0.995 3.670 2.200 ;
+        RECT 4.725 1.605 4.895 2.200 ;
+        RECT 4.695 1.315 4.925 1.605 ;
+        RECT 3.530 0.725 4.270 0.995 ;
+    END
+  END S0N
+  PIN S1
+    ANTENNAGATEAREA 0.108000 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 2.210 1.215 2.380 1.625 ;
+        RECT 3.020 0.675 3.190 1.045 ;
+      LAYER mcon ;
+        RECT 3.020 0.750 3.190 0.920 ;
+      LAYER met1 ;
+        RECT 2.150 1.325 2.440 1.415 ;
+        RECT 2.150 1.185 2.845 1.325 ;
+        RECT 2.705 1.015 2.845 1.185 ;
+        RECT 2.705 0.660 3.220 1.015 ;
+    END
+  END S1
+  PIN S1N
+    ANTENNAGATEAREA 0.108000 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 3.015 1.215 3.185 1.625 ;
+        RECT 2.330 0.675 2.500 1.045 ;
+      LAYER mcon ;
+        RECT 3.015 1.275 3.185 1.445 ;
+        RECT 2.330 0.750 2.500 0.920 ;
+      LAYER met1 ;
+        RECT 1.870 1.605 2.720 1.695 ;
+        RECT 1.870 1.555 3.220 1.605 ;
+        RECT 1.870 1.015 2.010 1.555 ;
+        RECT 2.580 1.465 3.220 1.555 ;
+        RECT 2.985 1.215 3.220 1.465 ;
+        RECT 1.870 0.660 2.560 1.015 ;
+    END
+  END S1N
+  PIN VGND
+    DIRECTION INOUT ;
+    SHAPE ABUTMENT ;
+    USE GROUND ;
+    PORT
+      LAYER li1 ;
+        RECT 5.990 0.085 6.360 0.855 ;
+        RECT 0.000 -0.085 6.900 0.085 ;
+      LAYER mcon ;
+        RECT 0.145 -0.085 0.315 0.085 ;
+        RECT 0.605 -0.085 0.775 0.085 ;
+        RECT 1.065 -0.085 1.235 0.085 ;
+        RECT 1.525 -0.085 1.695 0.085 ;
+        RECT 1.985 -0.085 2.155 0.085 ;
+        RECT 2.445 -0.085 2.615 0.085 ;
+        RECT 2.905 -0.085 3.075 0.085 ;
+        RECT 3.365 -0.085 3.535 0.085 ;
+        RECT 3.825 -0.085 3.995 0.085 ;
+        RECT 4.285 -0.085 4.455 0.085 ;
+        RECT 4.745 -0.085 4.915 0.085 ;
+        RECT 5.205 -0.085 5.375 0.085 ;
+        RECT 5.665 -0.085 5.835 0.085 ;
+        RECT 6.125 -0.085 6.295 0.085 ;
+        RECT 6.585 -0.085 6.755 0.085 ;
+      LAYER met1 ;
+        RECT 0.000 -0.240 6.900 0.240 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    SHAPE ABUTMENT ;
+    USE POWER ;
+    PORT
+      LAYER li1 ;
+        RECT 0.000 2.635 6.900 2.805 ;
+        RECT 6.090 1.775 6.315 2.635 ;
+      LAYER mcon ;
+        RECT 0.145 2.635 0.315 2.805 ;
+        RECT 0.605 2.635 0.775 2.805 ;
+        RECT 1.065 2.635 1.235 2.805 ;
+        RECT 1.525 2.635 1.695 2.805 ;
+        RECT 1.985 2.635 2.155 2.805 ;
+        RECT 2.445 2.635 2.615 2.805 ;
+        RECT 2.905 2.635 3.075 2.805 ;
+        RECT 3.365 2.635 3.535 2.805 ;
+        RECT 3.825 2.635 3.995 2.805 ;
+        RECT 4.285 2.635 4.455 2.805 ;
+        RECT 4.745 2.635 4.915 2.805 ;
+        RECT 5.205 2.635 5.375 2.805 ;
+        RECT 5.665 2.635 5.835 2.805 ;
+        RECT 6.125 2.635 6.295 2.805 ;
+        RECT 6.585 2.635 6.755 2.805 ;
+      LAYER met1 ;
+        RECT 0.000 2.480 6.900 2.960 ;
+    END
+  END VPWR
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190 1.305 7.090 2.910 ;
+    END
+  END VPB
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.420 -0.085 0.590 0.085 ;
+    END
+  END VNB
+  PIN X
+    ANTENNADIFFAREA 0.383600 ;
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 6.515 1.765 6.760 2.465 ;
+        RECT 6.530 0.255 6.760 1.765 ;
+    END
+  END X
+  PIN A3
+    ANTENNADIFFAREA 0.190800 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 4.725 1.795 5.240 2.125 ;
+        RECT 5.070 0.505 5.240 1.795 ;
+        RECT 4.725 0.255 5.240 0.505 ;
+    END
+  END A3
+  PIN A2
+    ANTENNADIFFAREA 0.187200 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 3.700 1.795 4.215 2.125 ;
+        RECT 3.700 0.505 3.870 1.795 ;
+        RECT 3.700 0.255 4.215 0.505 ;
+    END
+  END A2
+  PIN A0
+    ANTENNADIFFAREA 0.187200 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 0.160 1.800 0.675 2.125 ;
+        RECT 0.160 0.505 0.330 1.800 ;
+        RECT 0.160 0.255 0.675 0.505 ;
+    END
+  END A0
+  PIN A1
+    ANTENNADIFFAREA 0.190800 ;
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 1.185 1.795 1.700 2.125 ;
+        RECT 1.530 0.505 1.700 1.795 ;
+        RECT 1.185 0.255 1.700 0.505 ;
+    END
+  END A1
+  OBS
+      LAYER li1 ;
+        RECT 0.845 2.295 2.040 2.465 ;
+        RECT 0.845 0.255 1.015 2.295 ;
+        RECT 1.870 2.125 2.040 2.295 ;
+        RECT 3.360 2.295 4.555 2.465 ;
+        RECT 3.360 2.125 3.530 2.295 ;
+        RECT 1.870 1.795 2.325 2.125 ;
+        RECT 2.595 1.825 3.055 2.125 ;
+        RECT 1.870 0.505 2.040 1.795 ;
+        RECT 1.870 0.255 2.505 0.505 ;
+        RECT 2.675 0.255 2.845 1.825 ;
+        RECT 3.225 1.795 3.530 2.125 ;
+        RECT 3.360 0.505 3.530 1.795 ;
+        RECT 3.015 0.255 3.530 0.505 ;
+        RECT 4.385 0.255 4.555 2.295 ;
+        RECT 5.575 2.125 5.920 2.465 ;
+        RECT 5.410 1.425 5.580 1.755 ;
+        RECT 5.750 1.315 5.920 2.125 ;
+        RECT 6.190 1.315 6.360 1.395 ;
+        RECT 5.750 1.255 6.360 1.315 ;
+        RECT 5.580 1.145 6.360 1.255 ;
+        RECT 5.580 1.025 5.920 1.145 ;
+        RECT 6.190 1.065 6.360 1.145 ;
+        RECT 5.580 0.255 5.790 1.025 ;
+      LAYER mcon ;
+        RECT 2.885 1.860 3.055 2.030 ;
+        RECT 5.410 1.505 5.580 1.675 ;
+      LAYER met1 ;
+        RECT 2.595 1.835 3.240 2.060 ;
+        RECT 2.855 1.745 3.240 1.835 ;
+        RECT 5.345 1.380 5.710 1.735 ;
+      LAYER via ;
+        RECT 2.895 1.800 3.155 2.060 ;
+        RECT 5.355 1.420 5.615 1.680 ;
+      LAYER met2 ;
+        RECT 2.855 1.770 3.240 2.120 ;
+        RECT 5.315 1.325 5.700 1.710 ;
+      LAYER via2 ;
+        RECT 2.910 1.840 3.190 2.120 ;
+        RECT 5.370 1.380 5.650 1.660 ;
+      LAYER met3 ;
+        RECT 2.855 2.130 3.240 2.145 ;
+        RECT 2.855 1.825 5.675 2.130 ;
+        RECT 2.855 1.815 3.240 1.825 ;
+        RECT 5.345 1.300 5.675 1.825 ;
+  END
+END custom_mux41_buf
+END LIBRARY
+

@@ -1,0 +1,50 @@
+timestamp 1734975205
+version 8.3
+tech sky130A
+style ngspice(nowell)
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_sram_1kbyte_1rw1r_32x256_8_pand2 sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0 1 0 31326 0 1 0
+use sky130_sram_1kbyte_1rw1r_32x256_8_pand2 sky130_sram_1kbyte_1rw1r_32x256_8_pand2_1 1 0 21342 0 1 0
+use sky130_sram_1kbyte_1rw1r_32x256_8_pand2 sky130_sram_1kbyte_1rw1r_32x256_8_pand2_2 1 0 11358 0 1 0
+use sky130_sram_1kbyte_1rw1r_32x256_8_pand2 sky130_sram_1kbyte_1rw1r_32x256_8_pand2_3 1 0 1374 0 1 0
+port "gnd" 6 41261 -49 41359 49 m3
+port "gnd" 6 -49 -49 49 49 m3
+port "wmask_in_3" 4 31312 256 31340 284 m2
+port "wmask_in_2" 3 21328 256 21356 284 m2
+port "wmask_in_1" 2 11344 256 11372 284 m2
+port "wmask_in_0" 1 1360 256 1388 284 m2
+port "en" 5 0 488 41310 548 m3
+port "vdd" 7 41261 1071 41359 1169 m3
+port "vdd" 7 -49 1071 49 1169 m3
+node "gnd" 0 0 -49 -49 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wmask_in_3" 0 0 31312 256 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wmask_in_2" 0 0 21328 256 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wmask_in_1" 0 0 11344 256 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wmask_in_0" 0 0 1360 256 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wmask_out_3" 0 0 31887 517 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wmask_out_2" 0 0 21903 517 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wmask_out_1" 0 0 11919 517 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wmask_out_0" 0 0 1935 517 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "en" 0 0 0 488 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 0 0 -49 1071 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_3/sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0/Z" "wmask_out_0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_3/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/A" "wmask_in_0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_1/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_1/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_2/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_2/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_3/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_3/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/gnd" "gnd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_2/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/A" "wmask_in_1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_1/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/A" "wmask_in_2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/A" "wmask_in_3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_1/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_1/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_2/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_2/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_3/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_3/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/vdd" "vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_1/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_1/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_2/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/B"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_2/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/B" "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_3/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/B"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_3/sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0/B" "en"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_1/sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0/Z" "wmask_out_2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_2/sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0/Z" "wmask_out_1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0/sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0/Z" "wmask_out_3" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

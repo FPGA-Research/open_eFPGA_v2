@@ -1,0 +1,55 @@
+timestamp 1734975199
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0 sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0 1 0 0 0 -1 2828
+use sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0 sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1 1 0 0 0 1 0
+port "dout_0" 2 2364 489 2392 517 m2
+port "dout_bar_0" 3 1858 871 1886 899 m2
+port "dout_bar_1" 6 1858 1929 1886 1957 m2
+port "dout_1" 5 2364 2311 2392 2339 m2
+port "clk" 7 369 0 397 2828 m2
+port "din_0" 1 137 538 203 590 m2
+port "din_1" 4 137 2238 203 2290 m2
+port "gnd_uq0" 10 -49 -49 49 49 m3
+port "vdd" 8 -49 1365 49 1463 m3
+port "gnd" 9 -49 2779 49 2877 m3
+node "dout_0" 0 0 2364 489 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dout_bar_0" 0 0 1858 871 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dout_bar_1" 0 0 1858 1929 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dout_1" 0 0 2364 2311 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "clk" 0 0 369 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "din_0" 0 0 137 538 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "din_1" 0 0 137 2238 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "gnd_uq0" 0 0 -49 -49 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 0 0 -49 1365 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "gnd" 0 0 -49 2779 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2_0/vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_fd_bd_sram__openram_dff_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_fd_bd_sram__openram_dff_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/vdd" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/VDD"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/VDD" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/vdd" "vdd"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/VSUBS" "VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/D" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/D" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/D" "din_1"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/CLK" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/clk" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/clk" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_fd_bd_sram__openram_dff_0/CLK"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_fd_bd_sram__openram_dff_0/CLK" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/clk"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/clk" "clk"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/Qb" "dout_bar_1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/Q" "dout_0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/Q" "dout_1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_fd_bd_sram__openram_dff_0/D" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/D" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/D" "din_0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_fd_bd_sram__openram_dff_0/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/sky130_fd_bd_sram__openram_dff_0/gnd" "gnd_uq0"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_1/Qb" "dout_bar_0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1_0/gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/gnd" "gnd"

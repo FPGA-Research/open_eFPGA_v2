@@ -1,0 +1,428 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1688980957
+<< metal4 >>
+rect 25423 39900 26256 40733
+rect 7764 19536 7961 19733
+rect 5612 14092 5960 14440
+rect 5133 12882 5521 13270
+rect 4607 12008 4613 12014
+rect 4582 11920 4616 11954
+rect 4310 11212 4396 11298
+rect 4187 10977 4212 11002
+rect 3915 10280 3981 10346
+rect 3764 9622 4122 9980
+rect 3268 8668 3370 8770
+rect 2874 7792 2882 7800
+rect 2472 6714 2588 6830
+rect 8440 5763 8498 5821
+rect 1961 5494 2087 5620
+rect 10329 5279 10415 5365
+rect 11221 5340 11281 5400
+rect 9424 4913 9433 4922
+rect 10224 4965 10309 5050
+rect 1458 4284 1584 4410
+rect 1050 3321 1169 3440
+rect 551 1834 947 2230
+rect 407 0 1497 254
+rect 1777 0 2707 254
+rect 2987 0 3677 251
+rect 3957 0 4887 254
+rect 5167 0 6097 254
+rect 6377 0 7067 254
+rect 7347 0 8037 254
+rect 8317 0 9247 254
+rect 11647 0 12537 254
+rect 12817 0 13707 254
+rect 14008 0 19000 254
+rect 35157 0 40000 254
+<< obsm4 >>
+rect 0 40559 25423 40733
+rect 0 40323 25343 40559
+rect 0 40221 25423 40323
+rect 0 39985 25343 40221
+rect 0 39900 25423 39985
+rect 0 39883 25792 39900
+rect 0 39820 25343 39883
+rect 26336 39820 40000 40733
+rect 0 19813 40000 39820
+rect 0 19733 7684 19813
+rect 0 19536 7764 19733
+rect 0 19456 7684 19536
+rect 8041 19456 40000 19813
+rect 0 14520 40000 19456
+rect 0 14440 5532 14520
+rect 0 14390 5612 14440
+rect 0 14154 5532 14390
+rect 0 14092 5612 14154
+rect 0 14012 5581 14092
+rect 6040 14012 40000 14520
+rect 0 13350 40000 14012
+rect 0 13270 5053 13350
+rect 0 13215 5133 13270
+rect 0 12979 5053 13215
+rect 0 12882 5133 12979
+rect 0 12842 5521 12882
+rect 0 12802 5220 12842
+rect 5601 12802 40000 13350
+rect 0 12094 40000 12802
+rect 0 12080 4527 12094
+rect 0 12014 4635 12080
+rect 4693 12034 40000 12094
+rect 0 11954 4502 12014
+rect 0 11920 4582 11954
+rect 0 11840 4616 11920
+rect 4696 11840 40000 12034
+rect 0 11358 40000 11840
+rect 0 11298 4230 11358
+rect 0 11212 4310 11298
+rect 0 11148 4396 11212
+rect 0 11132 4460 11148
+rect 4476 11132 40000 11358
+rect 0 11062 40000 11132
+rect 0 11002 4107 11062
+rect 0 10977 4187 11002
+rect 0 10906 4212 10977
+rect 0 10897 4283 10906
+rect 4292 10897 40000 11062
+rect 0 10406 40000 10897
+rect 0 10346 3835 10406
+rect 0 10280 3915 10346
+rect 0 10200 3835 10280
+rect 4061 10200 40000 10406
+rect 0 10060 40000 10200
+rect 0 9980 3684 10060
+rect 0 9920 3764 9980
+rect 0 9684 3684 9920
+rect 0 9622 3764 9684
+rect 0 9542 4122 9622
+rect 4202 9542 40000 10060
+rect 0 8850 40000 9542
+rect 0 8770 3188 8850
+rect 0 8702 3268 8770
+rect 0 8588 3188 8702
+rect 3450 8588 40000 8850
+rect 0 7880 40000 8588
+rect 0 7800 2794 7880
+rect 0 7792 2874 7800
+rect 0 7738 2882 7792
+rect 0 7712 2794 7738
+rect 2962 7712 40000 7880
+rect 0 6910 40000 7712
+rect 0 6830 2392 6910
+rect 0 6749 2472 6830
+rect 0 6634 2392 6749
+rect 2668 6634 40000 6910
+rect 0 5901 40000 6634
+rect 0 5700 8360 5901
+rect 0 5620 1881 5700
+rect 2167 5683 8360 5700
+rect 8578 5683 40000 5901
+rect 0 5542 1961 5620
+rect 0 5414 1881 5542
+rect 2167 5480 40000 5683
+rect 2167 5445 11141 5480
+rect 2167 5414 10249 5445
+rect 0 5199 10249 5414
+rect 10495 5260 11141 5445
+rect 11361 5260 40000 5480
+rect 10495 5199 40000 5260
+rect 0 5130 40000 5199
+rect 0 5002 10144 5130
+rect 0 4833 9344 5002
+rect 9513 4885 10144 5002
+rect 10389 4885 40000 5130
+rect 9513 4833 40000 4885
+rect 0 4490 40000 4833
+rect 0 4410 1378 4490
+rect 0 4333 1458 4410
+rect 0 4204 1378 4333
+rect 1664 4204 40000 4490
+rect 0 3520 40000 4204
+rect 0 3440 970 3520
+rect 0 3362 1050 3440
+rect 0 3241 970 3362
+rect 1249 3241 40000 3520
+rect 0 2310 40000 3241
+rect 0 2230 471 2310
+rect 0 1834 551 2230
+rect 0 1754 947 1834
+rect 1027 1754 40000 2310
+rect 0 334 40000 1754
+rect 0 0 327 334
+rect 1577 0 1697 334
+rect 2787 331 3877 334
+rect 2787 0 2907 331
+rect 3757 0 3877 331
+rect 4967 0 5087 334
+rect 6177 0 6297 334
+rect 7147 0 7267 334
+rect 8117 0 8237 334
+rect 9327 0 11567 334
+rect 12617 0 12737 334
+rect 13787 0 13928 334
+rect 19080 0 35077 334
+<< metal5 >>
+rect 25423 39924 26232 40733
+rect 7767 19560 7937 19730
+rect 5606 14287 5739 14420
+rect 5118 12855 5513 13250
+rect 4631 11627 5084 12080
+rect 3754 9827 3887 9960
+rect 3257 8617 3390 8750
+rect 2854 7670 2964 7780
+rect 2454 6677 2587 6810
+rect 1952 5551 2001 5600
+rect 8790 5192 8975 5377
+rect 1449 4256 1583 4390
+rect 1045 3287 1178 3420
+rect 542 2076 676 2210
+rect 427 0 1477 254
+rect 1797 0 2687 254
+rect 3007 0 3657 251
+rect 3977 0 4867 254
+rect 5187 0 6077 254
+rect 6397 0 7047 254
+rect 7368 0 8017 254
+rect 8337 0 9227 254
+rect 11667 0 12517 254
+rect 12837 0 13687 254
+rect 14007 0 18997 254
+rect 35157 0 40000 254
+<< obsm5 >>
+rect 0 40559 25423 40733
+rect 0 40323 25103 40559
+rect 0 40221 25423 40323
+rect 0 39985 25103 40221
+rect 0 39924 25423 39985
+rect 0 39900 26232 39924
+rect 0 39883 25792 39900
+rect 0 39647 25103 39883
+rect 0 39604 26232 39647
+rect 26552 39604 40000 40733
+rect 0 20050 40000 39604
+rect 0 19730 7447 20050
+rect 0 19560 7767 19730
+rect 0 19536 7937 19560
+rect 0 19300 7447 19536
+rect 0 19240 7937 19300
+rect 8257 19240 40000 20050
+rect 0 14740 40000 19240
+rect 0 14420 5286 14740
+rect 0 14390 5606 14420
+rect 0 14154 5286 14390
+rect 0 14116 5739 14154
+rect 0 14092 5910 14116
+rect 0 13967 5581 14092
+rect 6059 13967 40000 14740
+rect 0 13570 40000 13967
+rect 0 13250 4798 13570
+rect 0 13215 5118 13250
+rect 0 12979 4798 13215
+rect 0 12855 5118 12979
+rect 0 12842 5513 12855
+rect 0 12677 5220 12842
+rect 0 12535 4798 12677
+rect 5833 12535 40000 13570
+rect 0 12400 40000 12535
+rect 0 12080 4311 12400
+rect 0 11627 4631 12080
+rect 0 11307 5084 11627
+rect 5404 11307 40000 12400
+rect 0 10280 40000 11307
+rect 0 9960 3434 10280
+rect 0 9920 3754 9960
+rect 0 9684 3434 9920
+rect 0 9565 3887 9684
+rect 0 9541 4149 9565
+rect 0 9507 3820 9541
+rect 4207 9507 40000 10280
+rect 0 9070 40000 9507
+rect 0 8750 2937 9070
+rect 0 8702 3257 8750
+rect 0 8466 2937 8702
+rect 0 8362 3417 8466
+rect 0 8297 2937 8362
+rect 3710 8297 40000 9070
+rect 0 8100 40000 8297
+rect 0 7780 2534 8100
+rect 0 7738 2854 7780
+rect 0 7502 2534 7738
+rect 0 7400 2964 7502
+rect 0 7350 2534 7400
+rect 3284 7350 40000 8100
+rect 0 7130 40000 7350
+rect 0 6810 2134 7130
+rect 0 6749 2454 6810
+rect 0 6513 2134 6749
+rect 0 6495 2587 6513
+rect 0 6471 2769 6495
+rect 0 6357 2506 6471
+rect 2907 6357 40000 7130
+rect 0 5920 40000 6357
+rect 0 5600 1632 5920
+rect 2321 5697 40000 5920
+rect 0 5551 1952 5600
+rect 0 5542 2001 5551
+rect 0 5306 1632 5542
+rect 0 5231 2001 5306
+rect 2321 5231 8470 5697
+rect 0 4872 8470 5231
+rect 9295 4872 40000 5697
+rect 0 4710 40000 4872
+rect 0 4390 1129 4710
+rect 0 4333 1449 4390
+rect 0 4097 1129 4333
+rect 0 4005 1645 4097
+rect 0 3936 1129 4005
+rect 1903 3936 40000 4710
+rect 0 3740 40000 3936
+rect 0 3420 725 3740
+rect 0 3362 1045 3420
+rect 0 3126 757 3362
+rect 0 2992 1178 3126
+rect 0 2968 1473 2992
+rect 0 2967 1151 2968
+rect 1498 2967 40000 3740
+rect 0 2530 40000 2967
+rect 0 2210 222 2530
+rect 0 2076 542 2210
+rect 0 1863 676 2076
+rect 0 1756 889 1863
+rect 996 1756 40000 2530
+rect 0 574 40000 1756
+rect 0 0 107 574
+rect 3007 571 3657 574
+rect 9547 0 11347 574
+rect 19317 0 34837 574
+<< labels >>
+rlabel metal5 s 4631 11627 5084 12080 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal5 s 3257 8617 3390 8750 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal5 s 7368 0 8017 254 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal5 s 8790 5192 8975 5377 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 3915 10280 3981 10346 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 3268 8668 3370 8770 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 4310 11212 4396 11298 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 4607 12008 4613 12014 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 11221 5340 11281 5400 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 10224 4965 10309 5050 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 7347 0 8037 254 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 8440 5763 8498 5821 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal5 s 25423 39924 26232 40733 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal5 s 2454 6677 2587 6810 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal5 s 5187 0 6077 254 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal5 s 35157 0 40000 254 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal4 s 2472 6714 2588 6830 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal4 s 25423 39900 26256 40733 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal4 s 35157 0 40000 254 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal4 s 5167 0 6097 254 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal5 s 2854 7670 2964 7780 6 VSWITCH
+port 3 nsew signal bidirectional
+rlabel metal5 s 6397 0 7047 254 6 VSWITCH
+port 3 nsew signal bidirectional
+rlabel metal4 s 2874 7792 2882 7800 6 VSWITCH
+port 3 nsew signal bidirectional
+rlabel metal4 s 6377 0 7067 254 6 VSWITCH
+port 3 nsew signal bidirectional
+rlabel metal5 s 3754 9827 3887 9960 6 VSSD
+port 4 nsew signal bidirectional
+rlabel metal5 s 8337 0 9227 254 6 VSSD
+port 4 nsew signal bidirectional
+rlabel metal4 s 3764 9622 4122 9980 6 VSSD
+port 4 nsew signal bidirectional
+rlabel metal4 s 8317 0 9247 254 6 VSSD
+port 4 nsew signal bidirectional
+rlabel metal5 s 5118 12855 5513 13250 6 VSSIO_Q
+port 5 nsew signal bidirectional
+rlabel metal5 s 11667 0 12517 254 6 VSSIO_Q
+port 5 nsew signal bidirectional
+rlabel metal4 s 5133 12882 5521 13270 6 VSSIO_Q
+port 5 nsew signal bidirectional
+rlabel metal4 s 11647 0 12537 254 6 VSSIO_Q
+port 5 nsew signal bidirectional
+rlabel metal5 s 5606 14287 5739 14420 6 VDDIO_Q
+port 6 nsew signal bidirectional
+rlabel metal5 s 12837 0 13687 254 6 VDDIO_Q
+port 6 nsew signal bidirectional
+rlabel metal4 s 5612 14092 5960 14440 6 VDDIO_Q
+port 6 nsew signal bidirectional
+rlabel metal4 s 12817 0 13707 254 6 VDDIO_Q
+port 6 nsew signal bidirectional
+rlabel metal5 s 7767 19560 7937 19730 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal5 s 1952 5551 2001 5600 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal5 s 3977 0 4867 254 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal5 s 14007 0 18997 254 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal4 s 1961 5494 2087 5620 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal4 s 7764 19536 7961 19733 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal4 s 14008 0 19000 254 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal4 s 3957 0 4887 254 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal5 s 1449 4256 1583 4390 6 VDDA
+port 8 nsew signal bidirectional
+rlabel metal5 s 3007 0 3657 251 6 VDDA
+port 8 nsew signal bidirectional
+rlabel metal4 s 1458 4284 1584 4410 6 VDDA
+port 8 nsew signal bidirectional
+rlabel metal4 s 2987 0 3677 251 6 VDDA
+port 8 nsew signal bidirectional
+rlabel metal5 s 542 2076 676 2210 6 VCCHIB
+port 9 nsew signal bidirectional
+rlabel metal5 s 427 0 1477 254 6 VCCHIB
+port 9 nsew signal bidirectional
+rlabel metal4 s 551 1834 947 2230 6 VCCHIB
+port 9 nsew signal bidirectional
+rlabel metal4 s 407 0 1497 254 6 VCCHIB
+port 9 nsew signal bidirectional
+rlabel metal5 s 1045 3287 1178 3420 6 VCCD
+port 10 nsew signal bidirectional
+rlabel metal5 s 1797 0 2687 254 6 VCCD
+port 10 nsew signal bidirectional
+rlabel metal4 s 1050 3321 1169 3440 6 VCCD
+port 10 nsew signal bidirectional
+rlabel metal4 s 1777 0 2707 254 6 VCCD
+port 10 nsew signal bidirectional
+rlabel metal4 s 4582 11920 4616 11954 6 AMUXBUS_A
+port 11 nsew signal bidirectional
+rlabel metal4 s 10329 5279 10415 5365 6 AMUXBUS_A
+port 11 nsew signal bidirectional
+rlabel metal4 s 4187 10977 4212 11002 6 AMUXBUS_B
+port 12 nsew signal bidirectional
+rlabel metal4 s 9424 4913 9433 4922 6 AMUXBUS_B
+port 12 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 40000 40733
+string LEFclass PAD
+string LEFsymmetry X Y R90
+string LEFview TRUE
+string GDS_END 35678782
+string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
+string GDS_START 35413726
+<< end >>

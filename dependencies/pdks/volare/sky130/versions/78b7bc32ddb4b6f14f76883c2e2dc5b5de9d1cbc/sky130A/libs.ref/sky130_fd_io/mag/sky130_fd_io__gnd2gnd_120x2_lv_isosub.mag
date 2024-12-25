@@ -1,0 +1,17 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1688980957
+use sky130_fd_io__gnd2gnd_sub_dnwl  sky130_fd_io__gnd2gnd_sub_dnwl_0
+timestamp 1688980957
+transform 1 0 0 0 1 0
+box 26 26 3956 3333
+use sky130_fd_io__gnd2gnd_sub_dnwl  sky130_fd_io__gnd2gnd_sub_dnwl_1
+timestamp 1688980957
+transform -1 0 8034 0 1 0
+box 26 26 3956 3333
+<< properties >>
+string GDS_END 15529938
+string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
+string GDS_START 15527550
+<< end >>

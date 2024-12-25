@@ -1,0 +1,44 @@
+#!/bin/csh
+cp ~/SKY130/eFPGA_v2/Innovus/CLB2/OUTPUTs/LUT4AB.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/DSP/OUTPUTs/DSP.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/RegFile/OUTPUTs/RegFile.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/W_IO/OUTPUTs/W_IO.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/RAM_IO/OUTPUTs/RAM_IO.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_single/OUTPUTs/N_term_single.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_single2/OUTPUTs/N_term_single2.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_RAM_IO/OUTPUTs/N_term_RAM_IO.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_RAM_IO/OUTPUTs/S_term_RAM_IO.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_single2/OUTPUTs/S_term_single2.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_single/OUTPUTs/S_term_single.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_DSP/OUTPUTs/S_term_DSP.lef ./lef
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_DSP/OUTPUTs/N_term_DSP.lef ./lef
+cp ~//SKY130/sky130_sram_macros/sky130_sram_2kbyte_1rw1r_32x512_8/sky130_sram_2kbyte_1rw1r_32x512_8.lef ./lef
+
+cp ~/SKY130/eFPGA_v2/Innovus/CLB2/OUTPUTs/LUT4AB.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/DSP/OUTPUTs/DSP.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/RegFile/OUTPUTs/RegFile.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/W_IO/OUTPUTs/W_IO.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/RAM_IO/OUTPUTs/RAM_IO.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_single/OUTPUTs/N_term_single.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_single2/OUTPUTs/N_term_single2.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_RAM_IO/OUTPUTs/N_term_RAM_IO.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_RAM_IO/OUTPUTs/S_term_RAM_IO.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_single2/OUTPUTs/S_term_single2.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_single/OUTPUTs/S_term_single.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_DSP/OUTPUTs/S_term_DSP.gds ./gds
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_DSP/OUTPUTs/N_term_DSP.gds ./gds
+cp ~//SKY130/sky130_sram_macros/sky130_sram_2kbyte_1rw1r_32x512_8/sky130_sram_2kbyte_1rw1r_32x512_8.gds ./gds
+
+cp ~/SKY130/eFPGA_v2/Innovus/CLB2/OUTPUTs/LUT4AB.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/DSP/OUTPUTs/DSP.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/RegFile/OUTPUTs/RegFile.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/W_IO/OUTPUTs/W_IO.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/RAM_IO/OUTPUTs/RAM_IO.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_single/OUTPUTs/N_term_single.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_single2/OUTPUTs/N_term_single2.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_RAM_IO/OUTPUTs/N_term_RAM_IO.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_RAM_IO/OUTPUTs/S_term_RAM_IO.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_single2/OUTPUTs/S_term_single2.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_single/OUTPUTs/S_term_single.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/S_term_DSP/OUTPUTs/S_term_DSP.lib ./lib
+cp ~/SKY130/eFPGA_v2/Innovus/N_term_DSP/OUTPUTs/N_term_DSP.lib ./lib

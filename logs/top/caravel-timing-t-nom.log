@@ -1,0 +1,80 @@
+pdk(libs) defined as:
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hvl/lib/sky130_fd_sc_hvl__tt_025C_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hvl/lib/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_sram_macros/lib/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib
+pdk(lefs) defined as:
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hvl/techlef/sky130_fd_sc_hvl__nom.tlef
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lef/sky130_fd_io.lef
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lef/sky130_ef_io.lef
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hvl/lef/sky130_fd_sc_hvl.lef
+/home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_sram_macros/lef/sky130_sram_2kbyte_1rw1r_32x512_8.lef
+verilog exception: /home/asma/open_eFPGA_dirk/caravel/verilog/gl/__user_analog_project_wrapper.v
+removing /home/asma/open_eFPGA_dirk/caravel/verilog/gl/__user_analog_project_wrapper.v from verilogs list
+verilog exception: /home/asma/open_eFPGA_dirk/caravel/verilog/gl/caravel-signoff.v
+removing /home/asma/open_eFPGA_dirk/caravel/verilog/gl/caravel-signoff.v from verilogs list
+verilog exception: /home/asma/open_eFPGA_dirk/caravel/verilog/gl/caravan-signoff.v
+removing /home/asma/open_eFPGA_dirk/caravel/verilog/gl/caravan-signoff.v from verilogs list
+verilog exception: /home/asma/open_eFPGA_dirk/caravel/verilog/gl/__user_project_wrapper.v
+removing /home/asma/open_eFPGA_dirk/caravel/verilog/gl/__user_project_wrapper.v from verilogs list
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hvl/lib/sky130_fd_sc_hvl__tt_025C_3v30.lib
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_sc_hvl/lib/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.lib
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib line 33, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib line 42, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib line 43, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib line 42, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib line 33, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib line 33, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib line 42, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib line 42, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib line 42, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib line 42, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib line 42, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib line 43, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib line 42, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib
+Warning: /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib line 43, default_fanout_load is 0.0.
+exec> read_liberty /home/asma/open_eFPGA_dirk/dependencies/pdks/sky130A/libs.ref//sky130_sram_macros/lib/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib
+exec> read_verilog /home/asma/open_eFPGA_dirk/mgmt_core_wrapper/verilog/gl/RAM256.v
+exec> read_verilog /home/asma/open_eFPGA_dirk/mgmt_core_wrapper/verilog/gl/mgmt_core_wrapper.v
+exec> read_verilog /home/asma/open_eFPGA_dirk/mgmt_core_wrapper/verilog/gl/RAM128.v
+exec> read_verilog /home/asma/open_eFPGA_dirk/caravel/verilog/gl/caravel_clocking.v
+exec> read_verilog /home/asma/open_eFPGA_dirk/caravel/verilog/gl/caravel_logo.v
+exec> read_verilog /home/asma/open_eFPGA_dirk/caravel/verilog/gl/user_id_textblock.v
+exec> read_verilog /home/asma/open_eFPGA_dirk/caravel/verilog/gl/open_source.v
+exec> read_verilog /home/asma/open_eFPGA_dirk/caravel/verilog/gl/caravan.v
+exec> read_verilog /home/asma/open_eFPGA_dirk/caravel/verilog/gl/gpio_defaults_block.v
+exec> read_verilog /home/asma/open_eFPGA_dirk/caravel/verilog/gl/caravan_signal_routing.v
+exec> read_verilog /home/asma/open_eFPGA_dirk/caravel/verilog/gl/housekeeping_alt.v
+Error: /home/asma/open_eFPGA_dirk/caravel/verilog/gl/housekeeping_alt.v line 142360, syntax error, unexpected '[', expecting '('

@@ -14,7 +14,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Include caravel global defines for the number of the user project IO pads 
-`include "defines.v"
+/*`include "defines.v"
 `define USE_POWER_PINS
 
 `ifdef GL
@@ -25,4 +25,4 @@
 `else
     `include "user_project_wrapper.v"
     `include "user_proj_example.v"
-`endif
+`endif*/

@@ -1,0 +1,30 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1688980957
+<< nwell >>
+rect -38 261 1142 582
+<< pwell >>
+rect 29 -17 63 17
+rect 587 -12 609 12
+rect 951 -10 983 12
+<< obsli1 >>
+rect 0 527 1104 561
+rect 17 309 535 527
+rect 17 171 259 275
+rect 293 205 535 309
+rect 17 17 535 171
+rect 0 -17 1104 17
+<< obsm1 >>
+rect 0 496 1104 592
+rect 0 -48 1104 48
+<< properties >>
+string FIXED_BBOX 0 0 1104 544
+string LEFclass CORE SPACER
+string LEFsite unithd
+string LEFsymmetry X Y R90
+string LEFview TRUE
+string GDS_END 3908296
+string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+string GDS_START 3904442
+<< end >>

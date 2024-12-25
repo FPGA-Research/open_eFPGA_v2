@@ -1,0 +1,62 @@
+timestamp 1734975205
+version 8.3
+tech sky130A
+style ngspice(nowell)
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__special_nfet_latch l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__special_nfet_latch l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__special_pfet_latch l=l w=w a1=as p1=ps a2=ad p2=pd
+port "BR1" 16 366 117 402 165 m1
+port "br1" 4 366 79 402 420 m1
+port "BL1" 12 294 117 330 165 m1
+port "bl1" 3 294 79 330 420 m1
+port "WL1" 26 303 107 335 141 m2
+port "wl1" 18 0 103 480 151 m2
+port "GND" 22 224 -14 255 19 m2
+port "GND" 22 225 222 256 256 m2
+port "gnd" 19 186 -55 294 55 m2
+port "gnd" 19 186 199 294 275 m2
+port "VDD" 8 222 112 258 160 m1
+port "vdd" 5 222 79 258 420 m1
+port "WL0" 24 324 331 355 365 m2
+port "wl0" 17 0 323 480 371 m2
+port "BR0" 14 150 117 186 165 m1
+port "br0" 2 150 79 186 420 m1
+port "BL0" 10 78 117 114 165 m1
+port "bl0" 1 78 79 114 420 m1
+node "a_400_n79#" 0 0 400 -79 ndif 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_38_n79#" 0 0 38 -79 ndif 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "BR1" 0 0 366 117 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "BR1" "br1"
+node "BL1" 0 0 294 117 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "BL1" "bl1"
+node "WL1" 0 0 303 107 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "WL1" "wl1"
+node "GND" 0 0 225 222 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "GND" "gnd"
+node "VDD" 0 0 222 112 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "VDD" "vdd"
+node "a_38_133#" 0 0 38 133 ndif 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "WL0" 0 0 324 331 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "WL0" "wl0"
+node "BR0" 0 0 150 117 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "BR0" "br0"
+node "BL0" 0 0 78 117 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "BL0" "bl0"
+device msubckt sky130_fd_pr__special_nfet_latch 400 -55 401 -54 l=16 w=42 "None" "GND" 32 0 "a_400_n79#" 42 1008,132 "GND" 42 39456,2586
+device msubckt sky130_fd_pr__special_nfet_latch 38 -55 39 -54 l=16 w=42 "None" "GND" 32 0 "a_38_n79#" 42 1008,132 "GND" 42 39456,2586
+device msubckt sky130_fd_pr__special_nfet_latch 400 39 401 40 l=16 w=42 "None" "GND" 32 0 "BR1" 42 1008,90 "GND" 42 39456,2586
+device msubckt sky130_fd_pr__special_nfet_latch 38 39 39 40 l=16 w=42 "None" "GND" 32 0 "BL1" 42 1008,90 "GND" 42 39456,2586
+device msubckt sky130_fd_pr__special_nfet_latch 400 103 401 104 l=30 w=42 "None" "WL1" 60 0 "BR1" 42 1008,90 "VDD" 42 1050,92
+device msubckt sky130_fd_pr__special_pfet_latch 196 115 197 116 l=16 w=28 "None" "WL1" 60 0 "VDD" 0 0 "VDD" 28 700,78
+device msubckt sky130_fd_pr__special_nfet_latch 38 103 39 104 l=30 w=42 "None" "WL1" 60 0 "BL1" 42 1008,90 "a_38_133#" 42 1050,92
+device msubckt sky130_fd_pr__special_nfet_latch 400 183 401 184 l=30 w=42 "None" "a_38_133#" 60 0 "VDD" 42 1050,92 "GND" 42 3920,272
+device msubckt sky130_fd_pr__special_pfet_latch 196 181 197 182 l=30 w=28 "None" "a_38_133#" 60 0 "VDD" 0 0 "VDD" 56 728,80
+device msubckt sky130_fd_pr__special_nfet_latch 400 261 401 262 l=30 w=42 "None" "a_38_133#" 60 0 "GND" 42 3920,272 "VDD" 42 1050,92
+device msubckt sky130_fd_pr__special_nfet_latch 400 341 401 342 l=30 w=42 "None" "WL0" 60 0 "VDD" 42 1050,92 "BR0" 42 1008,132
+device msubckt sky130_fd_pr__special_nfet_latch 38 183 39 184 l=30 w=42 "None" "VDD" 60 0 "a_38_133#" 42 1050,92 "GND" 42 1616,128
+device msubckt sky130_fd_pr__special_pfet_latch 196 263 197 264 l=30 w=28 "None" "VDD" 60 0 "VDD" 28 728,80 "a_38_133#" 28 700,78
+device msubckt sky130_fd_pr__special_nfet_latch 38 261 39 262 l=30 w=42 "None" "VDD" 60 0 "GND" 42 1616,128 "a_38_133#" 42 1050,92
+device msubckt sky130_fd_pr__special_pfet_latch 196 343 197 344 l=16 w=28 "None" "WL0" 60 0 "a_38_133#" 0 0 "a_38_133#" 28 700,78
+device msubckt sky130_fd_pr__special_nfet_latch 38 341 39 342 l=30 w=42 "None" "WL0" 60 0 "a_38_133#" 42 1050,92 "BL0" 42 1008,132

@@ -1,0 +1,419 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1688980957
+<< nwell >>
+rect -83 34709 16087 35795
+rect -83 34095 1503 34709
+rect 13394 34095 16087 34709
+rect -83 34046 16087 34095
+rect -83 33703 16088 34046
+rect -83 29338 1277 33703
+rect 15726 29338 16088 33703
+rect -83 28976 16088 29338
+rect 9208 28076 16088 28077
+rect -83 26133 16088 28076
+rect 9388 18849 16134 19033
+rect 12530 18747 16134 18849
+rect -83 18364 559 18480
+rect -83 17697 1195 18364
+rect -24 17656 1195 17697
+rect -24 17548 1684 17656
+rect -24 17332 1699 17548
+rect -24 17116 906 17332
+rect 15848 16869 16134 18747
+rect 9388 16633 16134 16869
+rect -143 15961 4963 16247
+rect -143 12468 143 15961
+rect 15848 14755 16134 16633
+rect 12530 14653 16134 14755
+rect 9388 14519 16134 14653
+rect 15825 13209 16134 14519
+rect 14067 13039 16134 13209
+rect -143 12204 762 12468
+rect -143 12154 2707 12204
+rect -143 12036 2092 12154
+rect -143 11604 143 12036
+rect -143 11318 4703 11604
+rect 15825 10410 16134 13039
+rect 14067 10124 16134 10410
+rect 9783 6853 16090 7211
+rect 11655 6482 16090 6853
+rect 12966 5957 16090 6482
+rect 12966 4616 16090 5069
+rect 916 3831 16090 4616
+rect -83 1133 622 1865
+<< pwell >>
+rect -58 28137 16058 28913
+rect -43 25863 8049 26071
+rect 13382 25863 16058 26071
+rect -43 25027 16058 25863
+rect -43 20710 1147 25027
+rect 15573 20710 16058 25027
+rect -43 20393 16058 20710
+rect -43 19251 1043 20393
+rect 7877 20164 16058 20393
+rect 10576 19904 16058 20164
+rect 15354 19597 16058 19904
+rect 7877 19251 16058 19597
+rect -43 19195 16058 19251
+rect -43 19052 9168 19195
+rect -43 18991 9318 19052
+rect -43 18587 1860 18991
+<< obsli1 >>
+rect 0 35729 16000 39941
+rect -17 34018 16021 35729
+rect -23 29043 16021 34018
+rect -23 29031 16000 29043
+rect 0 28887 16000 29031
+rect -32 28163 16032 28887
+rect 0 28030 16000 28163
+rect -23 28011 16000 28030
+rect -23 26255 16017 28011
+rect -17 26199 16017 26255
+rect 0 26045 16000 26199
+rect -17 26044 16032 26045
+rect -23 19221 16032 26044
+rect -23 19179 16000 19221
+rect -17 18916 16000 19179
+rect -17 18613 16017 18916
+rect 0 18414 16017 18613
+rect -17 17763 16017 18414
+rect 0 16121 16017 17763
+rect -17 11444 16017 16121
+rect 0 10250 16017 11444
+rect 0 7145 16000 10250
+rect 0 6023 16024 7145
+rect 0 5003 16000 6023
+rect 0 3897 16024 5003
+rect 0 1799 16000 3897
+rect -17 1199 16000 1799
+rect 0 46 16000 1199
+<< metal1 >>
+rect 12486 0 12538 56
+<< obsm1 >>
+rect 0 36195 16000 40000
+rect 0 35780 16004 36195
+rect 0 34018 16000 35780
+rect -23 26255 16029 34018
+rect 0 26044 16000 26255
+rect -23 19179 16029 26044
+rect 0 18916 16000 19179
+rect 0 18296 16012 18916
+rect -29 17950 16012 18296
+rect 0 16127 16012 17950
+rect -23 14586 16012 16127
+tri 16012 14586 16023 14597 sw
+rect -23 11438 16023 14586
+rect 0 10244 16023 11438
+rect 0 7145 16000 10244
+rect 0 6024 16023 7145
+rect 0 5003 16000 6024
+rect 0 3897 16023 5003
+rect 0 112 16000 3897
+rect 0 52 12430 112
+rect 12594 52 16000 112
+<< metal2 >>
+rect 15915 35546 15943 35574
+rect 4471 1285 4532 1346
+rect 2551 1070 2572 1091
+rect 9049 1018 9069 1038
+rect 675 895 723 943
+rect 1084 895 1132 943
+rect 5698 814 5768 884
+rect 3262 464 3271 473
+rect 6150 453 6180 483
+rect 1226 310 1245 329
+rect 7144 362 7184 402
+rect 15256 411 15430 585
+rect 13308 180 13367 239
+rect 5320 0 5372 28
+rect 6363 0 6415 44
+rect 7678 0 7730 89
+rect 15482 197 15522 237
+rect 15741 243 15742 244
+rect 9918 56 9971 109
+rect 13655 0 13785 44
+<< obsm2 >>
+rect 42 35630 15983 40000
+rect 42 35490 15859 35630
+rect 42 1402 15983 35490
+rect 42 1229 4415 1402
+rect 4588 1229 15983 1402
+rect 42 1147 15983 1229
+rect 42 1014 2495 1147
+rect 2628 1094 15983 1147
+rect 2628 1014 8993 1094
+rect 42 999 8993 1014
+rect 42 839 619 999
+rect 779 839 1028 999
+rect 1188 962 8993 999
+rect 9125 962 15983 1094
+rect 1188 940 15983 962
+rect 1188 839 5642 940
+rect 42 758 5642 839
+rect 5824 758 15983 940
+rect 42 641 15983 758
+rect 42 539 15200 641
+rect 42 529 6094 539
+rect 42 408 3206 529
+rect 3327 408 6094 529
+rect 6236 458 15200 539
+rect 42 397 6094 408
+rect 6236 397 7088 458
+rect 42 385 7088 397
+rect 42 254 1170 385
+rect 1301 306 7088 385
+rect 7240 355 15200 458
+rect 15486 355 15983 641
+rect 7240 306 15983 355
+rect 1301 300 15983 306
+rect 1301 295 15685 300
+rect 1301 254 13252 295
+rect 42 165 13252 254
+rect 13423 293 15685 295
+rect 42 145 9862 165
+rect 42 100 7622 145
+rect 42 84 6307 100
+rect 42 0 5264 84
+rect 5428 0 6307 84
+rect 6471 0 7622 100
+rect 7786 0 9862 145
+rect 10027 124 13252 165
+rect 13423 141 15426 293
+rect 15578 187 15685 293
+rect 15798 187 15983 300
+rect 15578 141 15983 187
+rect 13423 124 15983 141
+rect 10027 100 15983 124
+rect 10027 0 13599 100
+rect 13841 0 15983 100
+<< metal3 >>
+rect 80 35697 172 35789
+rect 9266 7454 9280 7468
+rect 11920 1328 12077 1485
+rect 15716 0 15782 153
+rect 15848 0 15914 163
+<< obsm3 >>
+rect 80 35869 15914 40000
+rect 252 35617 15914 35869
+rect 80 7548 15914 35617
+rect 80 7374 9186 7548
+rect 9360 7374 15914 7548
+rect 80 1565 15914 7374
+rect 80 1248 11840 1565
+rect 12157 1248 15914 1565
+rect 80 243 15914 1248
+rect 80 233 15768 243
+rect 80 0 15636 233
+<< metal4 >>
+rect 0 35157 5110 40000
+rect 13246 35157 16000 40000
+rect 400 21317 587 23791
+rect 0 14007 292 19000
+rect 13606 14007 16000 19000
+rect 0 12817 1372 13707
+rect 12189 12817 16000 13707
+rect 0 11647 13969 12537
+rect 14315 11647 16000 12537
+rect 0 11281 522 11347
+rect 0 10625 254 11221
+rect 9418 11281 16000 11347
+rect 0 10329 522 10565
+rect 0 9673 254 10269
+rect 15746 10625 16000 11221
+rect 9418 10329 16000 10565
+rect 0 9547 522 9613
+rect 15746 9673 16000 10269
+rect 9418 9547 16000 9613
+rect 0 8317 2782 9247
+rect 11141 8317 16000 9247
+rect 0 7347 1087 8037
+rect 13462 7347 16000 8037
+rect 0 6377 4454 7067
+rect 4770 6377 16000 7067
+rect 0 5167 3866 6097
+rect 4306 5167 16000 6097
+rect 0 3957 1486 4887
+rect 14347 3957 16000 4887
+rect 0 2987 4918 3677
+rect 10314 2987 16000 3677
+rect 0 1777 6847 2707
+rect 14053 1777 16000 2707
+rect 0 407 2230 1497
+rect 15362 407 16000 1497
+<< obsm4 >>
+rect 5190 35077 13166 40000
+rect 254 23871 15746 35077
+rect 254 21237 320 23871
+rect 667 21237 15746 23871
+rect 254 19080 15746 21237
+rect 372 13927 13526 19080
+rect 254 13787 15746 13927
+rect 1452 12737 12109 13787
+rect 254 12617 15746 12737
+rect 14049 11567 14235 12617
+rect 254 11427 15746 11567
+rect 602 11201 9338 11427
+rect 334 10645 15666 11201
+rect 602 10249 9338 10645
+rect 334 9693 15666 10249
+rect 602 9467 9338 9693
+rect 254 9327 15746 9467
+rect 2862 8237 11061 9327
+rect 254 8117 15746 8237
+rect 1167 7267 13382 8117
+rect 254 7147 15746 7267
+rect 4534 6297 4690 7147
+rect 254 6177 15746 6297
+rect 3946 5087 4226 6177
+rect 254 4967 15746 5087
+rect 1566 3877 14267 4967
+rect 254 3757 15746 3877
+rect 4998 2907 10234 3757
+rect 254 2787 15746 2907
+rect 6927 1697 13973 2787
+rect 254 1577 15746 1697
+rect 2310 327 15282 1577
+rect 254 107 15746 327
+<< metal5 >>
+rect 6423 25094 10731 29403
+<< obsm5 >>
+rect 1960 29723 15040 34697
+rect 1960 24774 6103 29723
+rect 11051 24774 15040 29723
+rect 1960 19617 15040 24774
+<< labels >>
+rlabel metal5 s 6423 25094 10731 29403 6 PAD
+port 1 nsew signal bidirectional
+rlabel metal4 s 0 8317 2782 9247 6 VSSD
+port 2 nsew ground bidirectional
+rlabel metal4 s 11141 8317 16000 9247 6 VSSD
+port 2 nsew ground bidirectional
+rlabel metal4 s 0 9673 254 10269 6 AMUXBUS_B
+port 3 nsew signal bidirectional
+rlabel metal4 s 15746 9673 16000 10269 6 AMUXBUS_B
+port 3 nsew signal bidirectional
+rlabel metal4 s 0 10625 254 11221 6 AMUXBUS_A
+port 4 nsew signal bidirectional
+rlabel metal4 s 15746 10625 16000 11221 6 AMUXBUS_A
+port 4 nsew signal bidirectional
+rlabel metal4 s 0 12817 1372 13707 6 VDDIO_Q
+port 5 nsew power bidirectional
+rlabel metal4 s 12189 12817 16000 13707 6 VDDIO_Q
+port 5 nsew power bidirectional
+rlabel metal4 s 0 14007 292 19000 6 VDDIO
+port 6 nsew power bidirectional
+rlabel metal4 s 0 3957 1486 4887 6 VDDIO
+port 6 nsew power bidirectional
+rlabel metal4 s 13606 14007 16000 19000 6 VDDIO
+port 6 nsew power bidirectional
+rlabel metal4 s 14347 3957 16000 4887 6 VDDIO
+port 6 nsew power bidirectional
+rlabel metal4 s 0 6377 4454 7067 6 VSWITCH
+port 7 nsew power bidirectional
+rlabel metal4 s 4770 6377 16000 7067 6 VSWITCH
+port 7 nsew power bidirectional
+rlabel metal4 s 0 5167 3866 6097 6 VSSIO
+port 8 nsew ground bidirectional
+rlabel metal4 s 4306 5167 16000 6097 6 VSSIO
+port 8 nsew ground bidirectional
+rlabel metal4 s 13246 35157 16000 40000 6 VSSIO
+port 8 nsew ground bidirectional
+rlabel metal4 s 0 35157 5110 40000 6 VSSIO
+port 8 nsew ground bidirectional
+rlabel metal4 s 0 2987 4918 3677 6 VDDA
+port 9 nsew power bidirectional
+rlabel metal4 s 10314 2987 16000 3677 6 VDDA
+port 9 nsew power bidirectional
+rlabel metal4 s 0 1777 6847 2707 6 VCCD
+port 10 nsew power bidirectional
+rlabel metal4 s 14053 1777 16000 2707 6 VCCD
+port 10 nsew power bidirectional
+rlabel metal4 s 0 407 2230 1497 6 VCCHIB
+port 11 nsew power bidirectional
+rlabel metal4 s 15362 407 16000 1497 6 VCCHIB
+port 11 nsew power bidirectional
+rlabel metal4 s 0 11281 522 11347 6 VSSA
+port 12 nsew ground bidirectional
+rlabel metal4 s 0 9547 522 9613 6 VSSA
+port 12 nsew ground bidirectional
+rlabel metal4 s 0 10329 522 10565 6 VSSA
+port 12 nsew ground bidirectional
+rlabel metal4 s 0 7347 1087 8037 6 VSSA
+port 12 nsew ground bidirectional
+rlabel metal4 s 13462 7347 16000 8037 6 VSSA
+port 12 nsew ground bidirectional
+rlabel metal4 s 9418 11281 16000 11347 6 VSSA
+port 12 nsew ground bidirectional
+rlabel metal4 s 9418 9547 16000 9613 6 VSSA
+port 12 nsew ground bidirectional
+rlabel metal4 s 9418 10329 16000 10565 6 VSSA
+port 12 nsew ground bidirectional
+rlabel metal4 s 0 11647 13969 12537 6 VSSIO_Q
+port 13 nsew ground bidirectional
+rlabel metal4 s 14315 11647 16000 12537 6 VSSIO_Q
+port 13 nsew ground bidirectional
+rlabel metal4 s 400 21317 587 23791 6 PAD_A_NOESD_H
+port 14 nsew signal bidirectional
+rlabel metal3 s 11920 1328 12077 1485 6 PAD_A_NOESD_H
+port 14 nsew signal bidirectional
+rlabel metal3 s 9266 7454 9280 7468 6 ANALOG_POL
+port 15 nsew signal input
+rlabel metal3 s 15716 0 15782 153 6 ENABLE_VDDIO
+port 16 nsew signal input
+rlabel metal3 s 80 35697 172 35789 6 IN_H
+port 17 nsew signal output
+rlabel metal3 s 15848 0 15914 163 6 IN
+port 18 nsew signal output
+rlabel metal2 s 9918 56 9971 109 6 DM[0]
+port 19 nsew signal input
+rlabel metal2 s 13308 180 13367 239 6 DM[1]
+port 20 nsew signal input
+rlabel metal2 s 5698 814 5768 884 6 DM[2]
+port 21 nsew signal input
+rlabel metal2 s 6363 0 6415 44 6 HLD_H_N
+port 22 nsew signal input
+rlabel metal2 s 5320 0 5372 28 6 HLD_OVR
+port 23 nsew signal input
+rlabel metal2 s 9049 1018 9069 1038 6 INP_DIS
+port 24 nsew signal input
+rlabel metal2 s 2551 1070 2572 1091 6 ENABLE_VDDA_H
+port 25 nsew signal input
+rlabel metal2 s 1226 310 1245 329 6 VTRIP_SEL
+port 26 nsew signal input
+rlabel metal2 s 675 895 723 943 6 OE_N
+port 27 nsew signal input
+rlabel metal2 s 4471 1285 4532 1346 6 OUT
+port 28 nsew signal input
+rlabel metal2 s 15482 197 15522 237 6 SLOW
+port 29 nsew signal input
+rlabel metal2 s 15915 35546 15943 35574 6 TIE_LO_ESD
+port 30 nsew signal output
+rlabel metal2 s 15256 411 15430 585 6 PAD_A_ESD_0_H
+port 31 nsew signal bidirectional
+rlabel metal2 s 6150 453 6180 483 6 ANALOG_SEL
+port 32 nsew signal input
+rlabel metal2 s 7678 0 7730 89 6 ENABLE_INP_H
+port 33 nsew signal input
+rlabel metal2 s 13655 0 13785 44 6 PAD_A_ESD_1_H
+port 34 nsew signal bidirectional
+rlabel metal2 s 15741 243 15742 244 6 TIE_HI_ESD
+port 35 nsew signal output
+rlabel metal2 s 7144 362 7184 402 6 ENABLE_H
+port 36 nsew signal input
+rlabel metal2 s 1084 895 1132 943 6 IB_MODE_SEL
+port 37 nsew signal input
+rlabel metal2 s 3262 464 3271 473 6 ENABLE_VSWITCH_H
+port 38 nsew signal input
+rlabel metal1 s 12486 0 12538 56 6 ANALOG_EN
+port 39 nsew signal input
+<< properties >>
+string FIXED_BBOX 0 0 16000 40000
+string LEFclass PAD
+string LEFsymmetry X Y R90
+string LEFview TRUE
+string GDS_END 11194436
+string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
+string GDS_START 9423270
+<< end >>

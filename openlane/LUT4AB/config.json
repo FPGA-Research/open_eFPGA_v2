@@ -1,0 +1,88 @@
+{
+   "DESIGN_NAME": "LUT4AB",
+   "DESIGN_IS_CORE": 0,
+
+   "VERILOG_FILES": [ "dir::./src/*.v"],
+   "SYNTH_LATCH_MAP": ["dir::./gate_map.v"],
+   "BASE_SDC_FILE": ["dir::./LUT4AB.sdc"],
+   "FP_PIN_ORDER_CFG": ["dir::./pin_order.cfg"],
+
+   "FP_IO_VEXTEND": 1.5,
+   "FP_IO_HEXTEND": 1.5,
+   
+   "FP_SIZING": "absolute",
+   "DIE_AREA": "0 0 223.5 223.5",
+    "SYNTH_STRATEGY": "AREA 0",
+   "GRT_OBS": "met5 0 0 223.5 223.5",
+   "CLOCK_PERIOD": 40,
+   "CLOCK_PORT": "UserCLK",
+   "CLOCK_TREE_SYNTH": 1,
+   "CELL_PAD": 4,
+   "RT_MAX_LAYER": "met4",
+   "CLOCK_WIRE_RC_LAYER": "met4",
+   "FP_PDN_HORIZONTAL_LAYER": "met3",
+   "FP_PDN_VPITCH": 75,
+   "FP_PDN_HPITCH": 75,
+ 
+   "SYNTH_MAX_FANOUT": 5,
+   "SYNTH_FLAT_TOP": 0,
+   "SYNTH_NO_FLAT": 1,
+   "FP_PDN_CORE_RING": 1,
+   "GLB_RT_MAXLAYER": "met4",
+   "FP_IO_VLENGTH": 0.8,
+   "FP_IO_HLENGTH": 0.8,
+   "FP_IO_HTHICKNESS_MULT": 2,
+   "FP_IO_VTHICKNESS_MULT": 2,
+   "ROUTING_CORES": 12,
+   "TOP_MARGIN_MULT": 2,
+   "BOTTOM_MARGIN_MULT": 2,
+   "FP_IO_MODE": 0,
+   "LEFT_MARGIN_MULT": 5,
+   "RIGHT_MARGIN_MULT": 5,
+
+   "VDD_PINS": "vccd1",
+   "GND_PINS": "vssd1",
+
+   "MAX_TRANSITION_CONSTRAINT": 1.0,
+   "MAX_FANOUT_CONSTRAINT": 16,
+   "PL_RESIZER_HOLD_MAX_BUFFER_PERCENT": 60,
+   "GLB_RESIZER_HOLD_MAX_BUFFER_PERCENT": 60,
+   "PL_RESIZER_SETUP_SLACK_MARGIN": 1,
+   "GLB_RESIZER_SETUP_SLACK_MARGIN": 0.2,
+   "GLB_RESIZER_HOLD_SLACK_MARGIN": 0.2,
+   "PL_RESIZER_HOLD_SLACK_MARGIN": 1,
+   "MAGIC_DEF_LABELS": 0,
+   "SYNTH_BUFFERING": 0,
+   "RUN_HEURISTIC_DIODE_INSERTION": 1,
+   "HEURISTIC_ANTENNA_THRESHOLD": 110,    
+   "GRT_REPAIR_ANTENNAS": 1,
+   "VDD_NETS": [ "vccd1"],
+   "GND_NETS": [ "vssd1"],
+
+   "pdk::sky130*": {
+       "scl::sky130_fd_sc_hd": {
+           "CLOCK_PERIOD": 40
+       },
+       "scl::sky130_fd_sc_hdll": {
+           "CLOCK_PERIOD": 10
+       },
+       "scl::sky130_fd_sc_hs": {
+           "CLOCK_PERIOD": 8
+       },
+       "scl::sky130_fd_sc_ls": {
+           "CLOCK_PERIOD": 10,
+           "SYNTH_MAX_FANOUT": 5
+       },
+       "scl::sky130_fd_sc_ms": {
+           "CLOCK_PERIOD": 10
+       }
+   },
+   "pdk::gf180mcuC": {
+       "STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu7t5v0",
+       "CLOCK_PERIOD": 24.0,
+       "FP_CORE_UTIL": 40,
+       "RT_MAX_LAYER": "Metal4",
+       "SYNTH_MAX_FANOUT": 4,
+       "PL_TARGET_DENSITY": 0.45
+   }
+}

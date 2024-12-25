@@ -1,0 +1,25 @@
+BEGIN: Mon Dec 23 17:32:14 2024
+Creating /home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/tmp/verilog.cells from the following files...
+	/home/asma/open_eFPGA_dirk/verilog/gl/BlockRAM_1KB.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/DSP.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/LUT4AB.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/N_term_DSP.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/N_term_RAM_IO.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/N_term_single.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/N_term_single2.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/RAM_IO.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/RegFile.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/S_term_DSP.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/S_term_RAM_IO.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/S_term_single.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/S_term_single2.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/W_IO.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/eFPGA_Config.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/user_proj_example.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/user_project_wrapper.v
+	/home/asma/open_eFPGA_dirk/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /home/asma/open_eFPGA_dirk/gds/user_project_wrapper.gds
+	to /home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/tmp/layout.txt
+Hierarchy check for user_project_wrapper failed. See /home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/tmp/hier.csv
+END: Mon Dec 23 17:32:18 2024
+Runtime: 0:00:04 (hh:mm:ss)

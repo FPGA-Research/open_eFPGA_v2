@@ -1,0 +1,14 @@
+Running gdsArea0 on file=/home/asma/open_eFPGA_dirk/gds/user_project_wrapper.gds (passive, no gdsFileOut)
+  args: '-V','-m','/home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/outputs/reports/spike_check.xml','/home/asma/open_eFPGA_dirk/gds/user_project_wrapper.gds'
+dbu=0.001 Float inv:1000.0
+number shapes: box=1158705 path=380 poly=2549
+writing marker-DB: /home/asma/open_eFPGA_dirk/precheck_results/23_DEC_2024___15_26_33/outputs/reports/spike_check.xml ...
+       0 area-zero shapes,         0 zero-area shapes deleted.
+       0 zero-length paths,        0 zero-length paths deleted.
+       0 path spikes
+       0 path octagonal acute angles
+       0 path any-angle acute angles
+       0 paths2poly
+       0 total errors,             0 total shapes deleted, 0 exit-status.
+VmPeak:	  727532 kB
+VmHWM:	  538460 kB

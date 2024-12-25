@@ -1,0 +1,213 @@
+/**
+ * Copyright 2020 The SkyWater PDK Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+library ("sky130_fd_io__top_top_analog_pad_ss_n40C_1v35_1v65") {
+  define(driver_model,library,string);
+  define(clk_width,library,string);
+  define(sim_opt,library,string);
+  define(simulator,library,string);
+  define(signal_voltage_type,pin,string);
+  technology ( cmos ) ;
+  delay_model : table_lookup;
+  revision : 1.0 ;
+  date : "Fri Oct 14 13:32:54 MST 2011";
+  voltage_unit  		: "1V"   ; 
+  current_unit  		: "1mA"  ;
+  leakage_power_unit		: "1nW"  ;
+  pulling_resistance_unit	: "1kohm" ;
+  time_unit			: "1ns"  ;
+  resistance_unit		: "1ohm" ;
+  capacitive_load_unit  	   (1,pf)  ;
+  
+  nom_process                   : 1.0 ;
+  nom_temperature               : -40	;
+  nom_voltage                   : 1.35	;
+
+  default_leakage_power_density : 0.0;
+  default_cell_leakage_power    : 0.0;
+  bus_naming_style              : "%s[%d]" ;
+  default_fanout_load	        : 0.0  ;  
+  default_inout_pin_cap 	: 0.0  ;  
+  default_input_pin_cap 	: 0.0  ;  
+  default_output_pin_cap	: 0.0  ;  
+  default_max_transition        : 25.00 ;
+  input_threshold_pct_rise      : 50.0 ;
+  input_threshold_pct_fall      : 50.0 ;
+  output_threshold_pct_rise     : 50.0 ;
+  output_threshold_pct_fall     : 50.0 ;
+  slew_lower_threshold_pct_fall : 20.0 ;
+  slew_lower_threshold_pct_rise : 20.0 ;
+  slew_upper_threshold_pct_fall : 80.0 ;
+  slew_upper_threshold_pct_rise : 80.0 ;
+  slew_derate_from_library 	:  1 ;
+  in_place_swap_mode            : match_footprint ;
+
+  library_features (report_delay_calculation);
+  define (always_on, pin, boolean) ;
+
+  voltage_map("vccd",1.350000);
+  voltage_map("vcchib",1.350000);
+
+  voltage_map("vdda",1.650000);
+  voltage_map("vddio",1.650000);
+  voltage_map("vddio_q",1.650000);
+  voltage_map("vswitch",3.000000);
+
+  voltage_map("vssa",0.000000);
+  voltage_map("vssd",0.000000);
+  voltage_map("vssio",0.000000);
+  voltage_map("vssio_q",0.000000);
+
+  operating_conditions (deep_sleep_max_-40_pvt5p2) {
+    process	: 1 ;
+    temperature : -40	;
+    voltage	: 1.35	;
+    tree_type	: balanced_tree ;
+  }
+  default_operating_conditions : "deep_sleep_max_-40_pvt5p2"	
+
+  lu_table_template(ccsn_dc) {
+    variable_1 : input_voltage;
+    variable_2 : output_voltage;
+  }
+  lu_table_template(ccsn_pnlh) {
+    variable_1 : input_noise_height;
+    variable_2 : input_noise_width;
+    variable_3 : total_output_net_capacitance;
+    variable_4 : time;
+  }
+  lu_table_template(ccsn_ovrf) {
+    variable_1 : input_net_transition;
+    variable_2 : total_output_net_capacitance;
+    variable_3 : time;
+  }
+cell (sky130_fd_io__top_analog_pad) {
+    cell_leakage_power :  2396.7200000;  
+    area :   14850.0 ;
+    pad_cell : true;
+
+    dont_touch : true ;      /* don't optimize this cell */
+is_macro_cell : true;
+    dont_use : true ;	     /* don't infer this cell	 */
+    interface_timing : true; /* this is a black box - a complex cell*/
+
+    pg_pin (vccd) {
+    	    voltage_name : "vccd";
+    	    pg_type : "primary_power";
+    }
+    pg_pin (vcchib) {
+    	    voltage_name : "vcchib";
+    	    pg_type : "primary_power";
+    }
+    pg_pin (vdda) {
+    	    voltage_name : "vdda";
+    	    pg_type : "primary_power";
+    }
+    pg_pin (vddio) {
+    	    voltage_name : "vddio";
+    	    pg_type : "primary_power";
+    }
+    pg_pin ("vddio_q") {
+    	    voltage_name : "vddio_q";
+    	    pg_type : "primary_power";
+    }
+    pg_pin (vswitch) {
+    	    voltage_name : "vswitch";
+    	    pg_type : "primary_power";
+    }
+    pg_pin (vssa) {
+    	    voltage_name : "vssa";
+    	    pg_type : "primary_ground";
+    }
+    pg_pin (vssd) {
+    	    voltage_name : "vssd";
+    	    pg_type : "primary_ground";
+    }
+    pg_pin (vssio) {
+    	    voltage_name : "vssio";
+    	    pg_type : "primary_ground";
+    }
+    pg_pin ("vssio_q") {
+    	    voltage_name : "vssio_q";
+    	    pg_type : "primary_ground";
+    }
+
+    pin (pad) {
+    	    direction : "inout";
+    	    related_power_pin : "vddio";
+    	    related_ground_pin : "vssio";
+    	    always_on : false ;
+    	    is_pad : true;
+    	    capacitance : 1.061130;
+        ccsn_first_stage() { 
+            is_needed : false ; 
+        } 
+        ccsn_last_stage() { 
+            is_needed : false ; 
+        } 
+    }
+
+    pin (pad_core) {
+    	    direction : "inout";
+    	    related_power_pin : "vddio";
+    	    related_ground_pin : "vssio";
+    	    always_on : false ;
+    	    is_pad : true;
+    	    capacitance : 1.061130;
+        ccsn_first_stage() { 
+            is_needed : false ; 
+        } 
+        ccsn_last_stage() { 
+            is_needed : false ; 
+        } 
+    }
+    pin ("amuxbus_a") {
+    	    direction : "inout";
+    	    related_power_pin : "vddio";
+    	    related_ground_pin : "vssd";
+    	    always_on : true;
+    	    signal_voltage_type : "analog";
+    	    rise_capacitance : 0.069348;
+    	    capacitance : 0.070467;
+    	    fall_capacitance : 0.071586;
+        ccsn_first_stage() { 
+            is_needed : false ; 
+        } 
+        ccsn_last_stage() { 
+            is_needed : false ; 
+        } 
+    }
+    pin ("amuxbus_b") {
+    	    direction : "inout";
+    	    related_power_pin : "vddio";
+    	    related_ground_pin : "vssd";
+    	    always_on : true;
+    	    signal_voltage_type : "analog";
+    	    rise_capacitance : 0.069348;
+    	    capacitance : 0.070467;
+    	    fall_capacitance : 0.071586;
+        ccsn_first_stage() { 
+            is_needed : false ; 
+        } 
+        ccsn_last_stage() { 
+            is_needed : false ; 
+        } 
+    }
+
+
+  }
+}
