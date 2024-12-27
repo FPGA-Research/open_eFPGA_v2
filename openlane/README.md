@@ -8,17 +8,17 @@ design.
 
 Each directory consists of the following:
 
-`src`: The Verilog sources files.
-`.sdc` file: The design constraints for the design.
-`config.json`: The design configuration for the design.
-`gate_map.v`: Implementations of different small modules.
-`pin_order.cfg`: The pin order configuration which defines the locations of the
+* `src`: The Verilog sources files.
+* `.sdc` file: The design constraints for the design.
+* `config.json`: The design configuration for the design.
+* `gate_map.v`: Implementations of different small modules.
+* `pin_order.cfg`: The pin order configuration which defines the locations of the
 pins in the design.
 
 The top level design also contains the following:
-`fixed_dont_change`: Configurations that must not be changed.
-`macro`: `gds`, `lef` and `lib` files for all macros.
-`vsrc`: Definitions for the power nets.
-`macro_placement.cfg`: The locations of the macros used in the top level design.
-`pdn_cfg.tcl`: A tcl script which defines the Power Distribution Network (PDN),
+* `fixed_dont_change`: Configurations that must not be changed.
+* `macro`: `gds`, `lef` and `lib` files for all macros.
+* `vsrc`: Definitions for the power nets.
+* `macro_placement.cfg`: The locations of the macros used in the top level design.
+* `pdn_cfg.tcl`: A tcl script which defines the Power Distribution Network (PDN),
 kindly provided by efabless.
